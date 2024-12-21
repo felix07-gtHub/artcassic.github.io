@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="artist.css">
+    
+    <script src="artclassic.js" type="text/javascript"></script>
+    <title>Leonardo da Vinci</title>
+</head>
+<body>
+        <!--NAVIFATION BAR-->
+    <nav>   
+        <h1 onclick="toggleMenu(this)">&#9776</h1>   
+
+        <section id="menu">
+            <div class="flexbox">
+                <div>
+                    <a href="./homepage.html#title">HOME</a><br>
+                    <a href="./homepage.html#about">ABOUT</a><br>
+                    <a href="./homepage.html#people">PEOPLE</a>
+                </div>
+                
+                <div>
+                    <a href="./homepage.html#service">SERVICES</a><br>
+                    <a href="./homepage.html#gallery">GALLERY</a><br>
+                    <a href="./homepage.html#contact">CONTACT</a>
+                </div>
+            </div>
+        </section>
+
+        <a href="./homepage.html#title">
+            <img src="./IMAGE/LOGO/icon.png" alt="Logo" type="png">
+        </a>
+        <a href="./homepage.html#about">ABOUT</a>
+        <a href="./homepage.html#people">PEOPLE</a>
+        <h1 >ARTClassic</h1>
+        <a href="./homepage.html#service">SERVICES</a>
+        <a href="./homepage.html#gallery">GALLERY</a>
+        <a style="margin-right: 25px;" href="./homepage.html#contact">CONTACT</a>
+    </nav>
+
+        <!--------------------------------------------------DESCRIPTION IMAGE-------------------------------------------------->
+    <section class="description-image">
+        <center>
+            <div class="rectangle">                   
+                <div class="image-container"> 
+                    <img src="./IMAGE/RENAISSANCE/Leo.png" alt="Leonardo Da Vinci" type="png">
+                </div>
+
+                    <!--BUTTON-->
+                <a href="./Sandro Botticelli.html">
+                    <input type="button" name="button" value="PREVIEW">
+                </a>
+
+                <a href="./Masaccio.html">
+                    <input type="button" name="button" value="NEXT">
+                </a>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------DESCRIPTION TEXT-------------------------------------------------->
+    <section class="description-text">
+        <center>
+            <div class="text-container">
+                <h1>Leonardo da Vinci </h1>
+                <p>1452–1519</p>
+                <p>
+                    Was an Italian polymath celebrated as one of the greatest minds of the Renaissance. He excelled in various fields, 
+                    including painting, sculpture, anatomy, engineering, and invention. Known for his iconic works like Mona Lisa and The Last Supper, 
+                    his art is renowned for its realism and emotional depth. Beyond art, Leonardo's detailed notebooks reveal his visionary ideas, 
+                    including designs for flying machines and studies of human anatomy, showcasing his endless curiosity and genius.
+                </p>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------PAINTING-------------------------------------------------->
+    <section id="painting">
+        <center>
+            <div class="flexbox">
+                <div> <!-- PARENT 1 -->
+                    <!-- PAINTING 1 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/Mona Lisa.webp" alt="Mona Lisa" type="webp">
+                        </div>
+                        <p>Mona Lisa</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/Mona Lisa.webp" alt="Mona Lisa" type="webp">
+                            </div>
+                            <div class="column2">
+                                <h1>Mona Lisa</h1>
+                                <p>1503-1506</p>
+                                <p>
+                                    Leonardo’s most famous painting, the "Mona Lisa," is renowned for its enigmatic smile and the subtle use of sfumato,
+                                    a technique that blurs the lines between light and shadow. The sitter's expression is ambiguous, inviting endless
+                                    interpretation. The background landscape, with its dreamy and almost surreal quality, adds to the painting's mystique.
+                                    The work is a masterpiece of Renaissance portraiture, showcasing Leonardo’s deep understanding of human emotion and anatomy.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 2 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/Saint John the Baptist.jfif" alt="Saint John the Baptist" type="jfif">
+                        </div>
+                        <p>Saint John the Baptist</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/Saint John the Baptist.jfif" alt="Saint John the Baptist" type="jfif">
+                            </div>
+                            <div class="column2">
+                                <h1>Saint John the Baptist</h1>
+                                <p>1513-1516</p>
+                                <p>
+                                    In this later work, Leonardo portrays Saint John the Baptist with an enigmatic, almost mystical presence.
+                                    The figure is rendered in dark tones, with the saint’s pointed finger reaching out as if to invite reflection
+                                    on his role as the herald of Christ. The use of light and shadow creates a dramatic contrast, enhancing the
+                                    figure’s otherworldly aura. This piece is often seen as an exploration of the theme of spiritual revelation.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 3 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/salvator-mundi.jpg" alt="Salvator Mundi" type="jpg">
+                        </div>
+                        <p>Salvator Mundi</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/salvator-mundi.jpg" alt="Salvator Mundi" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Salvator Mundi</h1>
+                                <p>1499-1500</p>
+                                <p>
+                                    "Salvator Mundi," believed to be one of the last works by Leonardo, portrays Christ in a serene yet powerful stance,
+                                    raising his right hand in blessing while holding a crystal orb in his left. The orb, symbolizing the cosmos, is rendered
+                                    with extraordinary realism. This work combines religious symbolism with the artist's meticulous study of light, texture,
+                                    and human form, showcasing his deep knowledge of both art and science.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+                
+                <div> <!-- PARENT 2 -->
+                    <!-- PAINTING 4 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/st-jerome-in-the-wilderness.jpg" alt="St. Jerome in the Wilderness" type="jpg">
+                        </div>
+                        <p>St. Jerome in the Wilderness</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/st-jerome-in-the-wilderness.jpg" alt="St. Jerome in the Wilderness" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>St. Jerome in the Wilderness</h1>
+                                <p>1480</p>
+                                <p>
+                                    This unfinished work shows St. Jerome, a Christian scholar and translator, in a solitary, almost contemplative pose
+                                    within a wilderness landscape. The sparse background emphasizes the figure’s isolation and dedication. The sketch-like
+                                    quality of the piece is typical of Leonardo’s creative process, capturing the saint’s emotional state through dramatic
+                                    use of light and shadow. The work is a powerful reflection on the themes of solitude and inner transformation.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 5 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/the-battle-of-anghiari.jpg" alt="The Battle of Anghiari" type="jpg">
+                        </div>
+                        <p>The Battle of Anghiari</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/the-battle-of-anghiari.jpg" alt="The Battle of Anghiari" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Battle of Anghiari</h1>
+                                <p>1505 (uncompleted)</p>
+                                <p>
+                                    "The Battle of Anghiari" is one of Leonardo’s most famous, though unfinished, works, meant to be a grand fresco in the Palazzo Vecchio.
+                                    It depicts a moment in the Battle of Anghiari, where soldiers are locked in intense combat. Leonardo’s detailed exploration of human emotion,
+                                    movement, and anatomy is evident in the dramatic expressions and dynamic poses. Although the fresco was never completed, it remains an
+                                    influential work in the history of Renaissance art.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 6 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/the-vitruvian-man.jpg" alt="The Vitruvian Man" type="jpg">
+                        </div>
+                        <p>The Vitruvian Man</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/the-vitruvian-man.jpg" alt="The Vitruvian Man" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Vitruvian Man</h1>
+                                <p>1490</p>
+                                <p>
+                                    One of Leonardo’s most iconic works, "The Vitruvian Man" is a drawing based on the principles of Vitruvius, an ancient Roman architect.
+                                    The image illustrates the ideal proportions of the human body, with the figure positioned inside a square and circle. This work exemplifies
+                                    Leonardo's synthesis of art and science, showcasing his deep knowledge of anatomy and mathematical principles. It remains a symbol of the
+                                    Renaissance ideal of humanism and balance.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>                         
+
+                <div> <!-- PARENT 3 -->
+                    <!-- PAINTING 7 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/Adoration of the Magi.jfif" alt="Adoration of the Magi" type="jfif">
+                        </div>
+                        <p>Adoration of the Magi</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/Adoration of the Magi.jfif" alt="Adoration of the Magi" type="jfif">
+                            </div>
+                            <div class="column2">
+                                <h1>Adoration of the Magi</h1>
+                                <p>1481</p>
+                                <p>
+                                    The "Adoration of the Magi" is an unfinished altarpiece by Leonardo da Vinci, depicting the Three Wise Men presenting gifts to the infant Jesus.
+                                    The composition combines a dramatic use of light and shadow, with the figures placed in a pyramidal structure, emphasizing the theme of divine
+                                    revelation. This work was commissioned for the Monastery of San Donato a Scopeto in Florence.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 8 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/bacchus.jpg" alt="Bacchus" type="jpg">
+                        </div>
+                        <p>Bacchus</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/bacchus.jpg" alt="Bacchus" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Bacchus</h1>
+                                <p>1510</p>
+                                <p>
+                                    "Bacchus" is one of Leonardo's earlier works depicting the Roman god of wine and revelry. This painting shows Bacchus holding a cup of wine and surrounded by playful motifs.
+                                    It highlights Leonardo's mastery of fluid anatomy and psychological depth in character portrayal. The painting reflects Renaissance ideals of humanism and the natural world.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 9 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/Benois Madonna.jpg" alt="Benois Madonna" type="jpg">
+                        </div>
+                        <p>Benois Madonna</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/Benois Madonna.jpg" alt="Benois Madonna" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Benois Madonna</h1>
+                                <p>1478</p>
+                                <p>
+                                    The "Benois Madonna" depicts the Virgin Mary with the infant Jesus, highlighting Leonardo's early use of the pyramidal composition.
+                                    The child holds a flower, symbolizing purity, while the calm expression of the Virgin demonstrates both tenderness and strength.
+                                    This work is known for its soft, ethereal quality and careful rendering of light and shadow.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                </div>
+                
+                <div> <!-- PARENT 4 -->                
+                    <!-- PAINTING 10 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/Ginevra de Benci.jpg" alt="Ginevra de Benci" type="jpg">
+                        </div>
+                        <p>Ginevra de Benci</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/Ginevra de Benci.jpg" alt="Ginevra de Benci" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Ginevra de Benci</h1>
+                                <p>1474</p>
+                                <p>
+                                    "Ginevra de Benci" is one of Leonardo's early portraits and demonstrates his deep understanding of human psychology and light.
+                                    The young woman is presented in profile, with an enigmatic expression that has intrigued art historians for centuries.
+                                    The painting also incorporates the symbolic use of a juniper bush, a reference to Ginevra's name and virtue.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 11 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/la-belle-ferronniere.jpg" alt="La Belle Ferronnière" type="jpg">
+                        </div>
+                        <p>La Belle Ferronnière</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/la-belle-ferronniere.jpg" alt="La Belle Ferronnière" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>La Belle Ferronnière</h1>
+                                <p>1490</p>
+                                <p>
+                                    "La Belle Ferronnière" is one of the most famous portraits attributed to Leonardo. The painting depicts a woman wearing a headdress and a simple,
+                                    elegant dress. The subject's serene expression, combined with her subtle gaze and soft modeling of light, exemplifies Leonardo's mastery of
+                                    chiaroscuro and his focus on emotional depth.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 12 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/leda-and-the-swan.jpg" alt="Leda and the Swan" type="jpg">
+                        </div>
+                        <p>Leda and the Swan</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Leonardo da Vinci/leda-and-the-swan.jpg" alt="Leda and the Swan" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Leda and the Swan</h1>
+                                <p>1508</p>
+                                <p>
+                                    "Leda and the Swan" is one of Leonardo's most mythological works, depicting the Greek myth of Zeus transforming into a swan and seducing the mortal Leda.
+                                    The work demonstrates Leonardo’s exploration of anatomy, gesture, and human emotion. Though the painting is lost, the composition and the delicate rendering
+                                    of the figures have been captured in numerous copies and studies.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                </div>                       
+            </center>
+        </section>        
+            <!---------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------FOOTER-------------------------------------------------->
+    <section id="footer">
+        <div class="flexbox">
+            <h1>ArtClassic</h1>
+
+            <hr>
+            
+            <p>&copy; All  rights reserved.</p>
+        </div>
+    </section>
+        <!------------------------------------------------------------------------------------------------------------>
+</body>
+</html>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="artist.css">
+    
+    <script src="artclassic.js" type="text/javascript"></script>
+    <title>Théodore Géricault</title>
+</head>
+<body>
+        <!--NAVIFATION BAR-->
+    <nav>   
+        <h1 onclick="toggleMenu(this)">&#9776</h1>   
+
+        <section id="menu">
+            <div class="flexbox">
+                <div>
+                    <a href="./homepage.html#home">HOME</a><br>
+                    <a href="./homepage.html#about">ABOUT</a><br>
+                    <a href="./homepage.html#people">PEOPLE</a>
+                </div>
+                
+                <div>
+                    <a href="./homepage.html#services">SERVICES</a><br>
+                    <a href="./homepage.html#gallery">GALLERY</a><br>
+                    <a href="./homepage.html#contact">CONTACT</a>
+                </div>
+            </div>
+        </section>
+
+        <a href="./homepage.html#title">
+            <img src="./IMAGE/LOGO/icon.png" alt="Logo" type="png">
+        </a>
+        <a href="./homepage.html#aboutsection">ABOUT</a>
+        <a href="./homepage.html#peoplesection">PEOPLE</a>
+        <h1 >ARTClassic</h1>
+        <a href="./homepage.html#servicessection">SERVICES</a>
+        <a href="./homepage.html#gallerysection">GALLERY</a>
+        <a style="margin-right: 25px;" href="./homepage.html#contactsection">CONTACT</a>
+    </nav>
+
+        <!--------------------------------------------------DESCRIPTION IMAGE-------------------------------------------------->
+    <section class="description-image">
+        <center>
+            <div class="rectangle">                   
+                <div class="image-container"> 
+                    <img src="./IMAGE/ROMANTICISM/Théodore Géricault.jpg" alt="Théodore Géricault" type="jpg">
+                </div>
+
+                    <!--BUTTON-->
+                <a href="./Francisco Goya.html">
+                    <input type="button" name="button" value="PREVIEW">
+                </a>
+
+                <a href="./Eugène Delacroix.html">
+                    <input type="button" name="button" value="NEXT">
+                </a>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------DESCRIPTION TEXT-------------------------------------------------->
+    <section class="description-text">
+        <center>
+            <div class="text-container">
+                <h1>Théodore Géricault  </h1>
+                <p>1791-1824</p>
+                <p>
+                    Was a French painter and lithographer, whose best-known painting is The Raft of the Medusa. Despite his short life, 
+                    he was one of the pioneers of the Romantic movement.
+                </p>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------PAINTING-------------------------------------------------->
+    <section id="painting">
+        <center>
+            <div class="flexbox">
+                <!-- PARENT 1 -->
+                <div>
+                    <!-- PAINTING 1 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/A Horse frightened by Lightning.webp" alt="A Horse frightened by Lightning" type="webp">
+                        </div>
+                        <p>A Horse frightened by Lightning</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/A Horse frightened by Lightning.webp" alt="A Horse frightened by Lightning" type="webp">
+                            </div>
+                            <div class="column2">
+                                <h1>A Horse frightened by Lightning</h1>
+                                <p>1813-1814</p>
+                                <p>
+                                    Géricault has shown the moment it reacts to a bolt 
+                                    of lightning (in the upper right corner), and 
+                                    presumably, the accompanying clap of thunder. He avoided 
+                                    the more dramatic, and perhaps rather clichéd, image of a 
+                                    horse rearing, instead of showing the animal in profile as 
+                                    it freezes in fear. Géricault brilliantly captured the sheen 
+                                    of the dappled coat as it is momentarily lit up against the 
+                                    near blackness of the night sky. Using short, staccato strokes 
+                                    of liquid paint, which precisely follow the contours of the 
+                                    horse’s body, he created an effect of nervous energy that ripples 
+                                    across its silky surface.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 2 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/Anatomical Piece.jpeg" alt="Anatomical Piece" type="jpeg">
+                        </div>
+                        <p>Anatomical Piece</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/Anatomical Piece.jpeg" alt="Anatomical Piece" type="jpeg">
+                            </div>
+                            <div class="column2">
+                                <h1>Anatomical Piece</h1>
+                                <p>1819</p>
+                                <p>
+                                    A heap of limbs are arranged, if such a word can be used 
+                                    for so casual a display, in the centre of the canvas, seeming 
+                                    very like joints of meat except for the pathos of what is 
+                                    clearly a human arm on top of the heap, curved casually around 
+                                    another limb, much as a young person sits with their knees up 
+                                    and their arms wrapped around their knees. The merest suggestion 
+                                    of a disembodied foot extending out of the pile speaks to the 
+                                    indignity that has occurred, the dismantling of what used to be 
+                                    a person.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 3 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/Evening Landscape with an Aqueduct.jpeg" alt="Evening Landscape with an Aqueduct" type="jpeg">
+                        </div>
+                        <p>Evening Landscape with an Aqueduct</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/Evening Landscape with an Aqueduct.jpeg" alt="Evening Landscape with an Aqueduct" type="jpeg">
+                            </div>
+                            <div class="column2">
+                                <h1>Evening Landscape with an Aqueduct</h1>
+                                <p>1818</p>
+                                <p>
+                                    On view at The Met Fifth Avenue in Gallery 802. This work 
+                                    is one of a projected set of four monumental landscapes 
+                                    representing the times of day that Gericault painted in his 
+                                    Paris studio.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+
+                <!-- PARENT 2 -->
+                <div>
+                    <!-- PAINTING 4 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/Monomaniac of Envy .webp" alt="Monomaniac of Envy" type="webp">
+                        </div>
+                        <p>Monomaniac of Envy</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/Monomaniac of Envy .webp" alt="Monomaniac of Envy" type="webp">
+                            </div>
+                            <div class="column2">
+                                <h1>Monomaniac of Envy</h1>
+                                <p>1822</p>
+                                <p>
+                                    Also known by the name of Hyena of Salpêtrière, Portrait 
+                                    of a Woman Suffering from Obsessive Envy, and Manic Envy, 
+                                    is an oil-on-canvas painting by the French Romantic artist 
+                                    Théodore Géricault. Painted as part of his series of ten 
+                                    portraits on the mentally ill, it is one of only five known 
+                                    to survive today. It is currently housed in the Museum of 
+                                    Fine Arts of Lyon, France.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 5 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/Portrait of a Kleptomaniac.jpg" alt="Portrait of a Kleptomaniac" type="jpeg">
+                        </div>
+                        <p>Portrait of a Kleptomaniac</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/Portrait of a Kleptomaniac.jpg" alt="Portrait of a Kleptomaniac" type="jpeg">
+                            </div>
+                            <div class="column2">
+                                <h1>Portrait of a Kleptomaniac</h1>
+                                <p>1822</p>
+                                <p>
+                                    Around 1820 Théodore Géricault painted the Portrait of a 
+                                    Kleptomaniac. This Painting was part of a series of ten 
+                                    portraits of people confined in a madhouse, Five of which 
+                                    have been preserved. At the time the artist had befriended 
+                                    doctor Etienne-Jean Georget, who was a member of a group of 
+                                    enlightened medical Practitioners, the so-called alienists. 
+                                    They no longer considered madness to be a Divine punishment, 
+                                    but rather an illness or a disability, which needed to be 
+                                    Treated.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 6 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/the 1821 derby.webp" alt="The 1821 Derby" type="webp">
+                        </div>
+                        <p>The 1821 Derby</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/the 1821 derby.webp" alt="The 1821 Derby" type="webp">
+                            </div>
+                            <div class="column2">
+                                <h1>The 1821 Derby</h1>
+                                <p>1821</p>
+                                <p>
+                                    An 1821 painting by the French artist Théodore Géricault 
+                                    in the Louvre Museum, showing The Derby of that year.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+
+                <!-- PARENT 3 -->
+                <div>
+                    <!-- PAINTING 7 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/The Charging Chasseur.jpeg" alt="The Charging Chasseur" type="jpeg">
+                        </div>
+                        <p>The Charging Chasseur</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/The Charging Chasseur.jpeg" alt="The Charging Chasseur" type="jpeg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Charging Chasseur</h1>
+                                <p>1812</p>
+                                <p>
+                                    The Charging Chasseur, or An Officer of the Imperial Horse 
+                                    Guards Charging, is an oil painting on canvas executed ca. 
+                                    1812 by the French painter Théodore Géricault, portraying a 
+                                    mounted Napoleonic cavalry officer who is ready to attack. 
+                                    It is now displayed in the Louvre, in Paris.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 8 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/the insane.jpg" alt="The Insane" type="jpeg">
+                        </div>
+                        <p>The Insane</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/the insane.jpg" alt="The Insane" type="jpeg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Insane</h1>
+                                <p>1821-1824</p>
+                                <p>
+                                    “The Insane” (Les Monomanes) is a series of portraits created 
+                                    by French Romantic painter Théodore Géricault between 1821 and 
+                                    1824. The series reflects Géricault’s fascination with the human 
+                                    condition and his interest in psychology and mental illness, which 
+                                    was influenced by his own struggles and his association with psychiatrist 
+                                    Étienne-Jean Georget.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 9 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/The Raft of the Medusa.jpg" alt="The Raft of the Medusa" type="jpeg">
+                        </div>
+                        <p>The Raft of the Medusa</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/The Raft of the Medusa.jpg" alt="The Raft of the Medusa" type="jpeg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Raft of the Medusa</h1>
+                                <p>1818-1819</p>
+                                <p>
+                                    Géricault’s masterpiece was inspired by a contemporary shipwreck, 
+                                    the wreck of the French frigate Méduse off the coast of Africa in 
+                                    1816, which resulted in the loss of 147 men, some of whom were later 
+                                    rescued after drifting on a raft for weeks. The work depicts the final 
+                                    moments of the survivors as they await rescue, creating an intense 
+                                    emotional drama.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+
+                <!-- PARENT 4 -->
+                <div>
+                    <!-- PAINTING 10 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/The Woman with a Gambling Mania.jpg" alt="The Woman with a Gambling Mania" type="jpeg">
+                        </div>
+                        <p>The Woman with a Gambling Mania</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/The Woman with a Gambling Mania.jpg" alt="The Woman with a Gambling Mania" type="jpeg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Woman with a Gambling Mania</h1>
+                                <p>1822</p>
+                                <p>
+                                    The Woman with a Gambling Mania (La Manie du Jeu) was painted 
+                                    in 1822 by Théodore Géricault. This is one of Géricault’s portraits 
+                                    depicting individuals suffering from mental illness, executed in 
+                                    his characteristic Romantic style. The painting captures a woman 
+                                    in the grip of a manic obsession with gambling, showing her as 
+                                    both alluring and grotesque, reflecting the societal view of mental 
+                                    illness at the time.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 11 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/The Wounded Cuirassier.webp" alt="The Wounded Cuirassier" type="webp">
+                        </div>
+                        <p>The Wounded Cuirassier</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/The Wounded Cuirassier.webp" alt="The Wounded Cuirassier" type="webp">
+                            </div>
+                            <div class="column2">
+                                <h1>The Wounded Cuirassier</h1>
+                                <p>1814</p>
+                                <p>
+                                    The Wounded Cuirassier (Le Cuirassier Blessé) is an oil painting 
+                                    by Théodore Géricault created in 1814, showing a French soldier 
+                                    wounded during the Napoleonic Wars. This dramatic painting 
+                                    conveys the psychological and physical effects of war through 
+                                    the soldier’s pained expression and dramatic pose, combining 
+                                    the romanticism of heroic battles with the reality of violence.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 12 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/three lovers.jpeg" alt="Three Lovers" type="jpeg">
+                        </div>
+                        <p>Three Lovers</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Théodore Géricault Arts/three lovers.jpeg" alt="Three Lovers" type="jpeg">
+                            </div>
+                            <div class="column2">
+                                <h1>Three Lovers</h1>
+                                <p>1822</p>
+                                <p>
+                                    Three Lovers (Trois Amants) is an unfinished painting by 
+                                    Théodore Géricault, depicting an intimate and sensual moment 
+                                    between three lovers. The composition is innovative for its 
+                                    exploration of human relationships and the complexity of 
+                                    emotional bonds. It is an evocative and intimate portrayal, 
+                                    reflecting Géricault’s deep interest in the psychology of 
+                                    love and desire.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </center>
+    </section>        
+        <!---------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------FOOTER-------------------------------------------------->
+    <section id="footer">
+        <div class="flexbox">
+            <h1>ArtClassic</h1>
+
+            <hr>
+            
+            <p>&copy; All  rights reserved.</p>
+        </div>
+    </section>
+        <!------------------------------------------------------------------------------------------------------------>
+</body>
+</html>

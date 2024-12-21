@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="artist.css">
+    
+    <script src="artclassic.js" type="text/javascript"></script>
+    <title>Tommaso di Ser Giovanni di Simone</title>
+</head>
+<body>
+        <!--NAVIFATION BAR-->
+    <nav>   
+        <h1 onclick="toggleMenu(this)">&#9776</h1>   
+
+        <section id="menu">
+            <div class="flexbox">
+                <div>
+                    <a href="./homepage.html#title">HOME</a><br>
+                    <a href="./homepage.html#about">ABOUT</a><br>
+                    <a href="./homepage.html#people">PEOPLE</a>
+                </div>
+                
+                <div>
+                    <a href="./homepage.html#service">SERVICES</a><br>
+                    <a href="./homepage.html#gallery">GALLERY</a><br>
+                    <a href="./homepage.html#contact">CONTACT</a>
+                </div>
+            </div>
+        </section>
+
+        <a href="./homepage.html#title">
+            <img src="./IMAGE/LOGO/icon.png" alt="Logo" type="png">
+        </a>
+        <a href="./homepage.html#about">ABOUT</a>
+        <a href="./homepage.html#people">PEOPLE</a>
+        <h1 >ARTClassic</h1>
+        <a href="./homepage.html#service">SERVICES</a>
+        <a href="./homepage.html#gallery">GALLERY</a>
+        <a style="margin-right: 25px;" href="./homepage.html#contact">CONTACT</a>
+    </nav>
+
+        <!--------------------------------------------------DESCRIPTION IMAGE-------------------------------------------------->
+    <section class="description-image">
+        <center>
+            <div class="rectangle">                   
+                <div class="image-container"> 
+                    <img src="./IMAGE/RENAISSANCE/Masaccio.jpg" alt="Masaccio" type="jpg">
+                </div>
+
+                    <!--BUTTON-->
+                <a href="./Leonardo da Vinci.html">
+                    <input type="button" name="button" value="PREVIEW">
+                </a>
+
+                <a href="./Sandro Botticelli.html">
+                    <input type="button" name="button" value="NEXT">
+                </a>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------DESCRIPTION TEXT-------------------------------------------------->
+    <section class="description-text">
+        <center>
+            <div class="text-container">
+                <h1>Tommaso di Ser Giovanni di Simone</h1>
+                <p>1401–1428</p>
+                <p>
+                    Born Tommaso di Giovanni di Simone Guidi in Castel San Giovanni, Italy, was a transformative Florentine painter of the early Renaissance. His frescoes in the Brancacci Chapel (c. 1427) in Florence profoundly influenced Renaissance art, laying the conceptual and stylistic groundwork for Western painting.
+                    Though his apprenticeship is undocumented, Masaccio joined the Florentine Arte dei Medici e Speziali in 1422. His earliest known work, a triptych from the same year, reflects influences from Giotto and Andrea Orcagna, showcasing his skill in rendering realistic human forms. In 1426, he created a multi-paneled altarpiece for the Church of Santa Maria del Carmine in Pisa, parts of which, like Madonna and Child, highlight his mastery of realism and light.
+                    Despite his short career of just six years, Masaccio's innovative use of light and monumental figures deeply impacted contemporaries and later masters, including Leonardo da Vinci, Michelangelo, and Raphael, shaping the trajectory of Western art. He died in Rome around 1428.
+
+                </p>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------PAINTING-------------------------------------------------->
+    <section id="painting">
+        <center>
+            <div class="flexbox">
+                <div> <!-- PARENT 1 -->
+                    <!-- PAINTING 1 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/RENAISSANCE/Masaccio/Crucifixion (Pisa Altarpiece).jfif" alt="Crucifixion (Pisa Altarpiece)" type="jfif">
+                        </div>
+                        <p>Crucifixion (Pisa Altarpiece)</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Masaccio/Crucifixion (Pisa Altarpiece).jfif" alt="Crucifixion (Pisa Altarpiece)" type="jfif">
+                            </div>
+                            <div class="column2">
+                                <h1>Crucifixion (Pisa Altarpiece)</h1>
+                                <p>1426</p>
+                                <p>
+                                    Masaccio's best-documented work is the altar for Santa Maria del Carmine in Pisa, an early Gothic retable with saint images. 
+                                    The painting, which was completed one year after its completion, is housed in various museums, including the National Gallery in London, 
+                                    the Staatliche Museen in Berlin, and the Museo Nazionale di Capodimonte in Naples.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 2 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/RENAISSANCE/Masaccio/Saint Peter Healing the Sick with His Shadow.jfif" alt="Saint Peter Healing the Sick with His Shadow" type="jfif">
+                        </div>
+                        <p>Saint Peter Healing the Sick with His Shadow</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Masaccio/Saint Peter Healing the Sick with His Shadow.jfif" alt="Saint Peter Healing the Sick with His Shadow" type="jfif">
+                            </div>
+                            <div class="column2">
+                                <h1>Saint Peter Healing the Sick with His Shadow</h1>
+                                <p>1426-1427</p>
+                                <p>
+                                    In the Acts of the Apostles, a scene is depicted after the story of Ananias, illustrated in a fresco. Masaccio is considered the sole creator 
+                                    of this scene, with scholars identifying contemporary characters such as the Magi, Donatello, Giovanni, and others. The painting's right-hand 
+                                    margin, a section with a church facade, bell tower, blue sky, and Corinthian capital, is crucial for understanding the episode. Masaccio 
+                                    created a complex play of optical effects and perspective to create a regular geometrical construction. The street is lined with mediaeval 
+                                    Florentine houses, and the palace in rusticated stone looks like Palazzo Vecchio in the lower section but more similar to Palazzo Pitti in the upper part.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 3 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/RENAISSANCE/Masaccio/The Baptism of the Neophytes.webp" alt="The Baptism of the Neophytes" type="webp">
+                        </div>
+                        <p>The Baptism of the Neophytes</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Masaccio/The Baptism of the Neophytes.webp" alt="The Baptism of the Neophytes" type="webp">
+                            </div>
+                            <div class="column2">
+                                <h1>The Baptism of the Neophytes</h1>
+                                <p>1426-1427</p>
+                                <p>
+                                    Shivering, the Neophytes await baptism by Peter. Masaccio depicts their bodies with great skill and much attention for facial expressions. 
+                                    The two spectators on the left are possibly members of the Brancacci family, the owners of the chapel.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+                
+                <div> <!-- PARENT 2 -->
+                    <!-- PAINTING 4 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/RENAISSANCE/Masaccio/tribute-money.jpg" alt="The Tribute Money" type="jpg">
+                        </div>
+                        <p>The Tribute Money</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Masaccio/tribute-money.jpg" alt="The Tribute Money" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Tribute Money</h1>
+                                <p>1426</p>
+                                <p>
+                                    The Tribute Money is a 1426 fresco by Florentine artist Masaccio, part of a series of early Renaissance frescoes in Florence, Italy. The painting 
+                                    depicts the sin of Adam and Eve and the life of the apostle Peter. Masaccio's bold, naturalistic treatment of the figures, including the tax collector 
+                                    and Jesus, creates a convincing and emotionally charged atmosphere. The painting is compelling due to its human emotions and the successful fusion 
+                                    of technical innovation with an underlying classicism.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 5 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/RENAISSANCE/Masaccio/masaccio-expulsion-adam-eve.jpg" alt="Expulsion of Adam and Eve from Eden" rype="jpg">
+                        </div>
+                        <p>Expulsion of Adam and Eve from Eden</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Masaccio/masaccio-expulsion-adam-eve.jpg" alt="Expulsion of Adam and Eve from Eden" rype="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Expulsion of Adam and Eve from Eden</h1>
+                                <p>1424-1427</p>
+                                <p>
+                                    Masaccio's fresco depicts Adam and Eve being expelled from the Garden of Eden by an angel, part of a larger cycle in the Brancacci Chapel of 
+                                    Santa Maria del Carmine in Florence. The scene depicts the Fall of Man and the subsequent salvation through the Catholic Church, symbolized by St. Peter. 
+                                    The fresco is a striking emotional scene, with Eve crying out and Adam struggling to show his face.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 6 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/RENAISSANCE/Masaccio/Masaccio-Holy-Trinity.jpg" alt="Holy Trinity">
+                        </div>
+                        <p>Holy Trinity</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Masaccio/Holy Trinity.jpg" alt="Holy Trinity">
+                            </div>
+                            <div class="column2">
+                                <h1>Holy Trinity</h1>
+                                <p>1424</p>
+                                <p>
+                                    The fresco of the Holy Trinity in the church of Santa Maria Novella in Florence is a prime example of the early Renaissance's scientific approach 
+                                    to creating a convincing illusion of space within a painting. The painting features three key figures: Christ on the cross, God the Father standing 
+                                    on a ledge behind Christ, and the Holy Spirit. The figures are arranged in a pyramidal shape, similar to other Renaissance works.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                </div>
+
+                <div>   <!-- PARENT 3-->
+                    <!-- PAINTING 7 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/RENAISSANCE/Masaccio/Madonna Casini.jpg" alt="Madonna Casini" type="jpg">
+                        </div>
+                        <p>Madonna Casini</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Masaccio/Madonna Casini.jpg" alt="Madonna Casini" type="jpg">
+                            </div> 
+                            <div class="column2">
+                                <h1>Madonna Casini</h1>
+                                <p>1430</p>
+                                <p>
+                                    Madonna Casini, also known as 'Our Lady of Tickling', is a Renaissance painting by Masaccio that depicts Madonna and a child.
+                                    The painting features a caring yet serious expression from Virgin Mary, suggesting she may be aware of her son's untimely fate.
+                                    The child holds onto Mary's arm, creating two short stories. The painting also features a red pendant symbolizing the dual nature
+                                    of Christ, human and divine.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                                
+                    <!-- PAINTING 8 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/RENAISSANCE/Masaccio/madonna and child.jpg" alt="Madonna and Child with St Anne" type="jpg">
+                        </div>
+                        <p>Madonna and Child with St Anne</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Masaccio/madonna and child.jpg" alt="Madonna and Child with St Anne" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Madonna and Child with St Anne</h1>
+                                <p>1424-25</p>
+                                <p>
+                                    The Madonna and Child with Saint Anne, originally painted for the Sant'Ambrogio Church in Florence, is a subdued, monumental
+                                    altarpiece executed by Masolino and Masaccio in 1424. The composition, known as Sant'Anna Metterza, features St Anne, Madonna,
+                                    and Child with five angels, and is composed of a simple yet monumental structure. The painting's structure, composed of compact
+                                    planes and upward direction, conveys a sense of dignity and power.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 9 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/RENAISSANCE/Masaccio/Profile-Portrait-of-a-Young-Man.jpg" alt="Portrait of a Young Man" type="jpg">
+                        </div>
+                        <p>Portrait of a Young Man</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Masaccio/Profile-Portrait-of-a-Young-Man.jpg" alt="Portrait of a Young Man" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Portrait of a Young Man</h1>
+                                <p>1425</p>
+                                <p>
+                                    Masaccio's portrait of a young man is a unique and captivating piece that delves into the artist's side profile and the muse's features.
+                                    The painting, which stands sideways, features a prominent figure with a sharp nose that elongates into the man's temple. The artist uses
+                                    long brush strokes and a dabbing technique to bring the piece to life, showcasing the texture of the man's face and the muse's textured
+                                    skin. The artist also highlights the man's features with thinly positioned lips and deep Roman eyes. The large headscarf covering the man's
+                                    head adds a dramatic character, blending into a blood red color. The muse's clothing is coloured in deep red, burgundy, and classic brown,
+                                    with the background in the same deep brown color. White is used as a neutral color to transition the different shades. Masaccio's brilliant
+                                    artistry continues to be a significant cornerstone in Renaissance art, influencing modern art.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                </div>
+                
+                <div> <!-- PARENT 4 -->
+                    <!-- PAINTING 10 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/RENAISSANCE/Masaccio/distribbutiion of alms.jpg" alt="The Distribution of Alms and the Death of Ananias" type="jpg">
+                        </div>
+                        <p>The Distribution of Alms and the Death of Ananias</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Masaccio/distribbutiion of alms.jpg" alt="The Distribution of Alms and the Death of Ananias" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Distribution of Alms and the Death of Ananias</h1>
+                                <p>1426-27</p>
+                                <p>
+                                    The Acts of the Apostles tells the story of Ananias, a man who sells a possession and keeps back part of the price. Peter, a priest,asks Ananias
+                                    why he lied to the Holy Ghost and kept back part of the land price. Ananias, hearing these words, fell down and gave up the ghost. Masaccio combines
+                                    the two moments of the story, Peter distributing the donations and Ananias's death. The scene takes place in a solemn setting and is considered by
+                                    many scholars, except for minor details. Recent restorations have revealed that some elements were not the work of Masaccio, and it has been suggested
+                                    that Filippino Lippi repainted elements over Masaccio's original fresco. The fresco also references salvation through the faith and the institution of
+                                    the Catasto, and the family who commissioned the cycle. The two episodes on the end wall are part of a single composition, with the original two-light
+                                    window providing an ideal connection with the space outside.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                                
+                    <!-- PAINTING 11 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/RENAISSANCE/Masaccio/Putto and a Small Dog.jpg" alt="Putto and a Small Dog" type="jpg">
+                        </div>
+                        <p>Putto and a Small Dog</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Masaccio/Putto and a Small Dog.jpg" alt="Putto and a Small Dog" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Putto and a Small Dog</h1>
+                                <p>1427-28</p>
+                                <p>
+                                    The gothic artwork of Putto and a Small Dog by Masaccio is an advanced perspective on realism not many artists in the 15th century could achieve.
+                                    The painting features a young boy, Putto, depicted in his natural form bent downwards, kneeling on his right leg and bending his other leg. The
+                                    character's right arm points towards the animal, showcasing his authority. The artwork was created for the Berlin Tondo and was inspired by Masaccio's
+                                    famous murals for churches in Pisa. The painting showcases mysterious questions and mysterious characters, with the artist using nude and orange
+                                    shades to depict the boy's young age and chubby features. The background is covered in dark shades of teal and green, with a light golden shade
+                                    adding a luxurious feel.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 12 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/RENAISSANCE/Masaccio/a beardless carmelite saint.jpg" alt="A Beardless Carmelite Saint" type="jpg">
+                        </div>
+                        <p>A Beardless Carmelite Saint</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Masaccio/A Beardless Carmelite Saint.jpg" alt="A Beardless Carmelite Saint" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>A Beardless Carmelite Saint</h1>
+                                <p>1426</p>
+                                <p>
+                                    Masaccio is credited with creating the panel of the imberbe Carmelite saint, one of four figures (38 x 12 cm) that are currently housed in the
+                                    Staatliche Museen in Berlin and are already a part of the polyptych of Pisa. The bearded Carmelite Saint, St. Augustine, and St. Jerome are the
+                                    other three. The piece is a tempera on panel with a gold backdrop and was created around 1426.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>                 
+            </center>
+        </section>        
+            <!---------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------FOOTER-------------------------------------------------->
+    <section id="footer">
+        <div class="flexbox">
+            <h1>ArtClassic</h1>
+
+            <hr>
+            
+            <p>&copy; All  rights reserved.</p>
+        </div>
+    </section>
+        <!------------------------------------------------------------------------------------------------------------>
+</body>
+</html>

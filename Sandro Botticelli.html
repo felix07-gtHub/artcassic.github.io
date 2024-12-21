@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="artist.css">
+    
+    <script src="artclassic.js" type="text/javascript"></script>
+    <title>Sandro Botticelli</title>
+</head>
+<body>
+        <!--NAVIFATION BAR-->
+    <nav>   
+        <h1 onclick="toggleMenu(this)">&#9776</h1>   
+
+        <section id="menu">
+            <div class="flexbox">
+                <div>
+                    <a href="./homepage.html#title">HOME</a><br>
+                    <a href="./homepage.html#about">ABOUT</a><br>
+                    <a href="./homepage.html#people">PEOPLE</a>
+                </div>
+                
+                <div>
+                    <a href="./homepage.html#service">SERVICES</a><br>
+                    <a href="./homepage.html#gallery">GALLERY</a><br>
+                    <a href="./homepage.html#contact">CONTACT</a>
+                </div>
+            </div>
+        </section>
+
+        <a href="./homepage.html#title">
+            <img src="./IMAGE/LOGO/icon.png" alt="Logo" type="png">
+        </a>
+        <a href="./homepage.html#about">ABOUT</a>
+        <a href="./homepage.html#people">PEOPLE</a>
+        <h1 >ARTClassic</h1>
+        <a href="./homepage.html#service">SERVICES</a>
+        <a href="./homepage.html#gallery">GALLERY</a>
+        <a style="margin-right: 25px;" href="./homepage.html#contact">CONTACT</a>
+    </nav>
+
+        <!--------------------------------------------------DESCRIPTION IMAGE-------------------------------------------------->
+    <section class="description-image">
+        <center>
+            <div class="rectangle">                   
+                <div class="image-container"> 
+                    <img src="./IMAGE/RENAISSANCE/botticelli.jpg" alt="Botticelli" type="jpg">
+                </div>
+
+                    <!--BUTTON-->
+                <a href="./Masaccio.html">
+                    <input type="button" name="button" value="PREVIEW">
+                </a>
+
+                <a href="./Leonardo da Vinci.html">
+                    <input type="button" name="button" value="NEXT">
+                </a>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------DESCRIPTION TEXT-------------------------------------------------->
+    <section class="description-text">
+        <center>
+            <div class="text-container">
+                <h1>Alessandro di Mariano di Vanni Filipepi</h1>
+                <p>1445–1510</p>
+                <p>
+                    a renowned Italian painter and draughtsman, was known for his elegant paintings, including the Madonna and Child,
+                     altarpieces, and mythological works like 'Venus and Mars'. Born Alessandro di Mariano Filipepi, 
+                     he was known for his sharp wit and practical jokes, but was withdrawn from school and sent to work as an apprentice. 
+                     Botticelli trained with goldsmith Maso Finiguerra and later worked with painter Antonio del Pollaiuolo. 
+                     He joined the Compagnia di San Luca in 1472 and worked for the Medici family, where he painted ambitious secular works like 'Primavera'. 
+                     In 1481, the Pope summoned Botticelli to Rome to help decorate the Sistine Chapel in the Vatican. 
+                     Botticelli returned to Florence in 1478-90, producing famous mythological works like 'The Birth of Venus' and 'Venus and Mars'. 
+                     His work during this period was characterized by a crisis of style and expression, as he rejected the ornamental charm of his earlier works 
+                     and became a follower of the Dominican friar Savonarola. His final years were marked by melancholic and depressed behavior, 
+                     with his name disappearing until the late 19th century when a renewed appreciation for Florentine arts and culture revived his work.
+
+                </p>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------PAINTING-------------------------------------------------->
+    <section id="painting">
+        <center>
+            <div class="flexbox">
+                <div> <!-- PARENT 1 -->
+                    <!-- PAINTING 1 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Adoration of the magi.avif" alt="Adoration of the Magi" type="avif">
+                        </div>
+                        <p>Adoration of the Magi</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Adoration of the magi.avif" alt="Adoration of the Magi" type="avif">
+                            </div>
+                            <div class="column2">
+                                <h1>Adoration of the Magi</h1>
+                                <p>1470-1475</p>
+                                <p>
+                                    Sandro Botticelli's painting of the Three Magi, depicting the homage of Baby Jesus, is a depiction
+                                  of Florentine society during the Medici family's rise to power. The painting features Mary with Jesus,
+                                  Joseph asleep, and Baby Jesus blessing one of the Magi. The other two Magi are believed to be Cosimo
+                                  the Elder de' Medici, who died in 1464. Other members of the Medici family are believed to be involved
+                                  in the scene. The painting may also feature Botticelli as the young blond man seeking our gaze. The
+                                  patron of the work is Gaspare di Zanobi del Lama, a white-haired man dressed in light blue, who turns
+                                  towards us and points to himself. The panel with the Adoration of the Magi brought great fame to the
+                                  master, but Gaspare del Lama was convicted of fraud in 1476 and died a few years later. The painting
+                                  became property of the Medici family, and it has been displayed at the Uffizi since 1796.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 2 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Baptism of St Zenobius.jpg" alt="Baptism of St Zenobius" type="jpg">
+                        </div>
+                        <p>Baptism of St Zenobius</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Baptism of St Zenobius.jpg" alt="Baptism of St Zenobius" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Baptism of St Zenobius and His Appointment as Bishop</h1>
+                                <p>1500</p>
+                                <p>
+                                    On four paintings, Botticelli portrayed the life and activities of St. Zenobius (337–417), the first
+                                  bishop of Florence. St. Zenobius is depicted twice in the opening scene: he turns down the bride his
+                                  parents wanted him to marry and departs with a contemplative gait. In the remaining episodes, the child
+                                  Zenobius and his mother are baptized, and his ordination as a bishop is depicted on the right.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 3 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Botticelli-Primavera.jpg" alt="La Primavera" type="jpg">
+                        </div>
+                        <p>La Primavera</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Botticelli-Primavera.jpg" alt="La Primavera" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>La Primavera</h1>
+                                <p>1477-1482</p>
+                                <p>
+                                    La Primavera (Spring) is a painting by Leonardo Botticelli, commemorating the Florentine Renaissance.
+                                  It features mythological figures Mercury, the Three Graces, Venus, Chloris, Flora, and Zephyr. Some scholars
+                                  argue it reflects Botticelli's Neoplatonism interest, while others believe it was commissioned by the Medicis,
+                                  who influenced many painters during this time.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+                
+                <div> <!-- PARENT 2 -->
+                    <!-- PAINTING 4 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Calumny of Apelles.avif" alt="Calumny of Apelles" type="avif">
+                        </div>
+                        <p>Calumny of Apelles</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Calumny of Apelles.avif" alt="Calumny of Apelles" type="avif">
+                            </div>
+                            <div class="column2">
+                                <h1>Calumny of Apelles</h1>
+                                <p>1495ca.</p>
+                                <p>
+                                    Sandro Botticelli's work, inspired by a lost allegorical painting by Greek painter Apelles, depicts a king
+                                  making a judgment towards a half-naked man. The painting, known as De Calumnia, is a Greco-Roman work with a
+                                  portico overlooking the sea and adorned with statues, reliefs, and sculptural friezes. The king is advised by
+                                  two graceful female figures, personifying Ignorance and Suspicion. The victim is pulled by a charming woman,
+                                  Calumny, accompanied by Rancour, Fraud, and Deceit. The painting's meaning is controversial, but it is considered
+                                  a display of the refined culture of the patron and the Florentine environment at the end of the 15th century.
+                                  Botticelli's last work with allegorical-mythological subject was executed around 1495, coinciding with the end
+                                  of the Laurentian age and the advent of the Republic.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 5 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Madonna of the Magnificat.jpg" alt="Madonna of the Magnificat" type="jpg">
+                        </div>
+                        <p>Madonna of the Magnificat</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Madonna of the Magnificat.jpg" alt="Madonna of the Magnificat" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Madonna of the Magnificat</h1>
+                                <p>1483</p>
+                                <p>
+                                    The Virgin Mary, crowned by angels, is writing the canticle "Magnificat anima mea Dominum" under her son's
+                                  guidance. Jesus is sitting in her mother's lap, touching a pomegranate, symbolizing the blood shed by Jesus.
+                                  The painting's religious theme becomes temporal in the elegant hairstyles of Mary and the angels, who are without
+                                  wings. The originality of the work, along with the sophisticated elegance of the clothing and hair, has brought
+                                  renown to Botticelli's invention of beauty. The painting's original destination is unknown, but it may have been
+                                  hung in a Florentine Republic tribunal.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 6 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Pallas and the Centaur.jfif" alt="Pallas and the Centaur" type="jfif">
+                        </div>
+                        <p>Pallas and the Centaur</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Pallas and the Centaur.jfif" alt="Pallas and the Centaur" type="jfif">
+                            </div>
+                            <div class="column2">
+                                <h1>Pallas and the Centaur</h1>
+                                <p>1445-1510</p>
+                                <p>
+                                    Botticelli's painting depicts a young woman dragging a centaur by the hair, possibly representing Pallas Athena
+                                or Camilla, goddess of knowledge or virgin and warrior. The centaur symbolizes humanity's feral instincts and virtues.
+                                The painting belonged to the Medici family and may have been commissioned during Lorenzo di Pierfrancesco's marriage
+                                to Semiramide Appiani in 1482. The painting's interpretation remains uncertain.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                </div>
+
+                <div>   <!-- PARENT 3-->
+                    <!-- PAINTING 7 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/The Birth of Venus.jfif" alt="The Birth of Venus" type="jfif">
+                        </div>
+                        <p>The Birth of Venus</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/The Birth of Venus.jfif" alt="The Birth of Venus" type="jfif">
+                            </div> <div class="column2">
+                                <h1>The Birth of Venus</h1>
+                                <p>1485</p>
+                                <p>
+                                    The "Birth of Venus" is a 15th-century painting by Botticelli, depicting the goddess of love and beauty arriving on
+                                    Cyprus, blown by the winds and Zephyr. She is accompanied by a young woman, possibly one of the Graces or Hora of
+                                    spring, who holds a cloak covered in flowers. The painting is believed to have been commissioned by the Medici family,
+                                    possibly due to the association between the family name and the name of the orange tree. Botticelli drew inspiration
+                                    from classical statues for Venus' modest pose and the Winds, a gem from the Hellenistic period.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 8 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/The Mystical Nativity.jfif" alt="The Mystical Nativity" type="jfif">
+                        </div>
+                        <p>The Mystical Nativity</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/The Mystical Nativity.jfif" alt="The Mystical Nativity" type="jfif">
+                            </div>
+                            <div class="column2">
+                                <h1>The Mystical Nativity</h1>
+                                <p>1500</p>
+                                <p>
+                                    In this painting by Botticelli, Christ's birth is celebrated as the glorious revelation of God on Earth. The image features
+                                20 angels carrying leafy olive branches, symbolizing peace. The scene takes place in a glade within a forest, where Christ reaches
+                                up towards the Virgin Mary. The golden dome of heaven is circled by 12 angels holding olive branches. The meeting of the divine
+                                and human in the newborn Christ is shown symbolically in the dance-like embrace of three pairs of angels and men. The inscription
+                                at the top reflects the teachings of Girolamo Savonarola, a popular and radical preacher in Florence. Botticelli looks forward to
+                                the fulfillment of peace and man's reconciliation with God, as initiated by the Incarnation and expected to be achieved fully
+                                with Christ's return.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 9 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Venus and mars.png" alt="Venus and Mars" type="png">
+                        </div>
+                        <p>Venus and Mars</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Venus and mars.png" alt="Venus and Mars" type="png">
+                            </div>
+                            <div class="column2">
+                                <h1>Venus and Mars</h1>
+                                <p>1483</p>
+                                <p>
+                                    In Venus and Mars, Botticelli depicts the god Mars and the Roman goddess Venus in a laid-back sensuality. As four young satyrs
+                                frolic and attempt to wake Mars, Venus lies and watches him slumber. The sea where Venus was born can be seen in the backdrop.
+                                The picture has no precise literary allusion, but Poliziano's poem, in which he portrays Venus lying down and watching Mars sleep
+                                in one line, has the closest legend. Giuliano di Piero de Medici, the youngest member of the Medici family, served as a model for
+                                the sleeping Mars in this picture. The Medici family commissioned several of Botticelli's most well-known pieces.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                </div>
+
+                <div> <!-- PARENT 4 -->
+                    <!-- PAINTING 10 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/The Return of Judith.jfif" alt="The Return of Judith to Bethulia" type="jfif">
+                        </div>
+                        <p>The Return of Judith to Bethulia</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/The Return of Judith.jfif" alt="The Return of Judith to Bethulia" type="jfif">
+                            </div>
+                            <div class="column2">
+                                <h1>The Return of Judith to Bethulia</h1>
+                                <p>1472</p>
+                                <p>
+                                    One of the favorite topics of the Florentine Renaissance was the biblical story of Judith, who slew Holofernes,
+                                  the commander-in-chief of the Assyrian king, because he posed a fatal threat to the Hebrews in Bethulia. Since only
+                                  she had the guts to kill the dictator, Judith was seen as the epitome of feminine strength. Judith and her maid,
+                                  Abra, are depicted by Botticelli in The Return of Judith to Bethulia, walking out together in a somewhat irate manner.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 11 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/The Story of Nastagio Degli Onesti, part one.jpg" alt="Pallas and the Centaur" type="jpg">
+                        </div>
+                        <p>The Story of Nastagio Degli Onesti, part one</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/The Story of Nastagio Degli Onesti, part one.jpg" alt="Pallas and the Centaur" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Story of Nastagio Degli Onesti, part one</h1>
+                                <p>1483</p>
+                                <p>
+                                    Is the first panel in a series of four painted by Sandro Botticelli (1483). It illustrates a tale from Boccaccio’s Decameron, 
+                                    a collection of stories about love and life. In this panel, Nastagio, a wealthy young man, is shown in a forest near Ravenna after being 
+                                    rejected by his beloved. Depicted in a lush, detailed landscape, Nastagio witnesses a haunting scene: a ghostly knight pursues a naked woman 
+                                    with dogs, a vision symbolizing eternal punishment for unrequited love and cruelty.
+                                    The painting captures Botticelli’s signature style of elegance and storytelling, with its rich narrative details, vibrant colors, 
+                                    and dramatic atmosphere. It serves as a reflection of themes like love, vengeance, and morality, popular during the Renaissance.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                
+                    <!-- PAINTING 12 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Madonna of the Pomegranate.jfif" alt="Madonna of the Pomegranate.jfif" type="jfif">
+                        </div>
+                        <p>Madonna of the Pomegranate</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/RENAISSANCE/Sandro Botticelli/Madonna of the Pomegranate.jfif" alt="Madonna of the Pomegranate.jfif" type="jfif">
+                            </div>
+                            <div class="column2">
+                                <h1>Madonna of the Pomegranate</h1>
+                                <p>1487</p>
+                                <p>
+                                    Is a renowned tempera painting created by Sandro Botticelli around 1487. This masterpiece features the Virgin Mary seated majestically on a throne, holding the Christ Child on her lap. The pomegranate, held by both Mary and Jesus, symbolizes Christ's future sacrifice and the promise of eternal life, as its seeds represent the resurrection and redemption.
+                                    Surrounding the central figures are angels, forming a harmonious composition with graceful poses and serene expressions. Botticelli’s 
+                                    delicate use of color, intricate detailing, and flowing lines highlight his skill in blending religious symbolism with the aesthetic 
+                                    ideals of the Renaissance. The painting radiates an air of devotion, tenderness, and divine beauty, emblematic of Botticelli's style and the 
+                                    spiritual depth of the era.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>                
+            </center>
+        </section>        
+            <!---------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------FOOTER-------------------------------------------------->
+    <section id="footer">
+        <div class="flexbox">
+            <h1>ArtClassic</h1>
+
+            <hr>
+            
+            <p>&copy; All  rights reserved.</p>
+        </div>
+    </section>
+        <!------------------------------------------------------------------------------------------------------------>
+</body>
+</html>

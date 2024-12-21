@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="artist.css">
+    
+    <script src="artclassic.js" type="text/javascript"></script>
+    <title>Peter Paul Rubens</title>
+</head>
+<body>
+        <!--NAVIFATION BAR-->
+    <nav>   
+        <h1 onclick="toggleMenu(this)">&#9776</h1>   
+
+        <section id="menu">
+            <div class="flexbox">
+                <div>
+                    <a href="./homepage.html#title">HOME</a><br>
+                    <a href="./homepage.html#about">ABOUT</a><br>
+                    <a href="./homepage.html#people">PEOPLE</a>
+                </div>
+                
+                <div>
+                    <a href="./homepage.html#service">SERVICES</a><br>
+                    <a href="./homepage.html#gallery">GALLERY</a><br>
+                    <a href="./homepage.html#contact">CONTACT</a>
+                </div>
+            </div>
+        </section>
+
+        <a href="./homepage.html#title">
+            <img src="./IMAGE/LOGO/icon.png" alt="Logo" type="png">
+        </a>
+        <a href="./homepage.html#about">ABOUT</a>
+        <a href="./homepage.html#people">PEOPLE</a>
+        <h1 >ARTClassic</h1>
+        <a href="./homepage.html#service">SERVICES</a>
+        <a href="./homepage.html#gallery">GALLERY</a>
+        <a style="margin-right: 25px;" href="./homepage.html#contact">CONTACT</a>
+    </nav>
+
+       <!--------------------------------------------------DESCRIPTION IMAGE-------------------------------------------------->
+    <section class="description-image">
+        <center>
+            <div class="rectangle">                   
+                <div class="image-container"> 
+                    <img src="./IMAGE/BAROQUE/Peter Paul Rubens.jpg" alt="Peter Paul Rubens" type="jpg">
+                </div>
+
+                    <!--BUTTON-->
+                <a href="./Caravaggio.html">
+                    <input type="button" name="button" value="PREVIEW">
+                </a>
+
+                <a href="./Velazquez.html">
+                    <input type="button" name="button" value="NEXT">
+                </a>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------DESCRIPTION TEXT-------------------------------------------------->
+    <section class="description-text">
+        <center>
+            <div class="text-container">
+                <h1>Peter Paul Rubens</h1>
+                <p>1577–1640</p>
+                <p>
+                    Peter Paul Rubens (1577–1640), a Flemish Baroque painter, was a master of dynamic composition, 
+                    bold color, and sensuality, blending Italian Renaissance influences with Northern naturalism. 
+                    Returning to Antwerp in 1608 after extensive travels, he became court painter to Spanish governors of 
+                    Flanders and prominent patrons like Charles I of England and Marie de' Medici of France. 
+                    Renowned works such as Raising of the Cross and The Rape of the Daughters of Leucippus showcase his 
+                    expertise in religious, mythological, and hunting scenes, as well as his signature depictions of 
+                    voluptuous nudes. Beyond art, Rubens was a skilled diplomat, negotiating on behalf of the Spanish
+                    Netherlands during their conflict with the Dutch Republic and earning nobility in 1624. A learned
+                    art collector and savvy businessman, Rubens' profound influence on Northern European art endures,
+                    paralleling the legacy of his contemporary, Rembrandt van Rijn.
+
+                </p>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------PAINTING-------------------------------------------------->
+    <section id="painting">
+        <center>
+            <div class="flexbox">
+                <div>   <!-- PARENT 1-->
+                    <!-- PAINTING 1 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="IMAGE/BAROQUE/Rubens/1-the-fall-of-phaeton-peter-paul-rubens.jpg" alt="The Fall of Phaeton" type="jpg">
+                        </div>
+                        <p>The Fall of Phaeton</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="IMAGE/BAROQUE/Rubens/1-the-fall-of-phaeton-peter-paul-rubens.jpg" alt="The Fall of Phaeton" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Fall of Phaeton</h1>
+                                <p>1604-1605</p>
+                                <p>
+                                    The artwork shows the ancient Greek myth of Phaeton (Phaethon), which is a common subject in visual arts. Rubens painted this myth at its most dramatic moment, 
+                                    with Zeus hurling thunderbolts on the right side. These thunderbolts create a bright contrast that highlights the horror on Phaeton's face, as well as the faces 
+                                    of the horses and other figures, while keeping the overall scene dark. The female figures with butterfly wings represent the hours and seasons, and they react in 
+                                    fear as the normal cycle of night and day is disrupted. The large astrological circle in the sky is also affected. The grouping of bodies forms a diagonal oval in 
+                                    the center, splitting the canvas into dark and light sides. The arrangement leads the viewer’s eye to move around that oval continuously.
+                                </p>
+                                <!-- CLOSE BUTTON -->
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 2 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/BAROQUE/Rubens/2-the-adoration-of-the-magi-peter-paul-rubens.jpg" alt="The Adoration of the Magi" type="jpg">
+                        </div>
+                        <p>The Adoration of the Magi</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Rubens/2-the-adoration-of-the-magi-peter-paul-rubens.jpg" alt="The Adoration of the Magi" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Adoration of the Magi</h1>
+                                <p>1618-1619</p>
+                                <p>
+                                    The artwork features full-length figures spread across the canvas, set against a frieze-like backdrop filled with a diverse crowd of twelve mature male figures. 
+                                    The eldest magus kneels and gently kisses the foot of the Christ Child, who stands on a straw-covered table presented by the Virgin Mary. The Child reaches out to 
+                                    touch the magus's bald head in a blessing. The dimly lit stable is illuminated by beams of light.
+                                </p>
+                                <!-- CLOSE BUTTON -->
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 3 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/BAROQUE/Rubens/head-of-medusa.jpg" alt="Head of Medusa" type="jpg">
+                        </div>
+                        <p>Head of Medusa</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Rubens/head-of-medusa.jpg" alt="Head of Medusa" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Head of Medusa</h1>
+                                <p>1617-1618</p>
+                                <p>
+                                    Medusa has been depicted in art for centuries, dating back to Ancient Greece, through various mediums including paintings, sculptures, pottery, and metalwork. 
+                                    In early representations, she is commonly shown with snakes for hair, a gaping mouth, and sharp teeth, often facing the viewer head-on. Although the depiction 
+                                    of Medusa has evolved over time, her direct gaze towards the observer has remained a constant element.
+                                </p>
+                                <!-- CLOSE BUTTON -->
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+                
+                <div>   <!-- PARENT 2-->
+                    <!-- PAINTING 4 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/BAROQUE/Rubens/marchesa-brigida-spinola-doria.jpg" alt="Marchesa Brigida Spinola Doria" type="jpg">
+                        </div>
+                        <p>Marchesa Brigida Spinola Doria</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Rubens/marchesa-brigida-spinola-doria.jpg" alt="Marchesa Brigida Spinola Doria" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Marchesa Brigida Spinola Doria</h1>
+                                <p>1606</p>
+                                <p>
+                                    The artwork was commissioned by Marquess Giacomo Massimiliano Doria of Genoa and depicts his wife (who was also his cousin) shortly after their wedding in 1605; 
+                                    she was from the notable Spinola family. After he passed away in 1613, she married another member of the Doria family. The piece has been cropped multiple times 
+                                    on both sides, which has altered the garden in the background and cut off the lower part of the figure.
+                                </p>
+                                <!-- CLOSE BUTTON -->
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 5 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/BAROQUE/Rubens/rape-of-the-daughters-of-leucippus.jpg" alt="Abduction of the Daughters of Leucippus" type="jpg">
+                        </div>
+                        <p>Abduction of the Daughters of Leucippus</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Rubens/rape-of-the-daughters-of-leucippus.jpg" alt="Abduction of the Daughters of Leucippus" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Abduction of the Daughters of Leucippus</h1>
+                                <p>1618</p>
+                                <p>
+                                    The painting illustrates the mortal Castor and the immortal Pollux as they abduct Phoebe and Hilaeira, the daughters of Leucippus. Castor, recognized for his horse-taming 
+                                    abilities, is depicted wearing armor, while Pollux, depicted as a boxer, has his upper body bare. Their horses further distinguish them: Castor rides a well-behaved horse 
+                                    supported by a putto, while Pollux's horse is shown rearing. The putto’s black wing symbolizes the eventual fate of the twins. Phoebe and Hilaeira lack distinct features, 
+                                    leaving their identities ambiguous.
+                                </p>
+                                <!-- CLOSE BUTTON -->
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 6 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/BAROQUE/Rubens/saint-george-and-the-dragon.jpg" alt="Saint George and the Dragon" type="jpg">
+                        </div>
+                        <p>Saint George and the Dragon</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Rubens/saint-george-and-the-dragon.jpg" alt="Saint George and the Dragon" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Saint George and the Dragon</h1>
+                                <p>1606-1610</p>
+                                <p>
+                                    The painting was created in Genoa, a city that honors Saint George as its patron. At the time, Rubens was in Italy enhancing his artistic skills under the guidance 
+                                    of his mentor, Otto van Veen. There is considerable speculation among scholars that the artwork was initially commissioned for the Church of Sant’Ambrogio, which 
+                                    is dedicated to Saint George. However, the patron never received the piece, as the artist kept it until his death in 1640. Eventually, Felipe IV acquired the artwork, 
+                                    and it is now displayed in the Museo del Prado in Madrid.
+                                </p>
+                                <!-- CLOSE BUTTON -->
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+                
+                <div>   <!-- PARENT 3-->
+                    <!-- PAINTING 7 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/BAROQUE/Rubens/samson-and-delilah.jpg" alt="Samson and Delilah" type="jpg">
+                        </div>
+                        <p>Samson and Delilah</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Rubens/samson-and-delilah.jpg" alt="Samson and Delilah" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Samson and Delilah</h1>
+                                <p>1609-1610</p>
+                                <p>
+                                    The painting captures a dramatic moment in which a servant stealthily shears Samson's long locks, the source of his immense strength, while he lies vulnerable 
+                                    in slumber. The tension in the scene heightens as Philistine soldiers, ominous figures lurking just beyond the open doorway, prepare to seize him in the wake of his betrayal. 
+                                    This compelling artwork was commissioned by Nicholas Rockox, an esteemed alderman of Antwerp, for his elegant town house, reflecting both the grandeur and the gravity of the narrative.
+                                </p>
+                                <!-- CLOSE BUTTON -->
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 8 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/BAROQUE/Rubens/the-circumcision-of-christ-peter-paul-rubens.jpg" alt="The Circumcision of Christ" type="jpg">
+                        </div>
+                        <p>The Circumcision of Christ</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Rubens/the-circumcision-of-christ-peter-paul-rubens.jpg" alt="The Circumcision of Christ" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Circumcision of Christ</h1>
+                                <p>1605</p>
+                                <p>
+                                    Commissioned by Marcello Pallavicino, a prominent vestryman of the Casa Professa of the Jesuits in Genoa, this artwork reflects a rich tapestry of influences. 
+                                    It draws heavily from the refined Mantuan paintings that flourished in the court of Vincenzo Gonzaga, showcasing a remarkable mastery of perspective with its strikingly 
+                                    foreshortened viewpoint that engages the viewer’s eye and immerses them in the scene. The composition not only highlights the artistic techniques of the period but 
+                                    also encapsulates the cultural interplay between the Jesuit community and the artistic currents of the time.
+                                </p>
+                                <!-- CLOSE BUTTON -->
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 9 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/BAROQUE/Rubens/the-elevation-of-the-cross.jpg" alt="The Elevation of the Cross" type="jpg">
+                        </div>
+                        <p>The Elevation of the Cross</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Rubens/the-elevation-of-the-cross.jpg" alt="The Elevation of the Cross" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Elevation of the Cross</h1>
+                                <p>1610</p>
+                                <p>
+                                    The Elevation of the Cross is a triptych panel artwork featuring muscular men lifting Jesus on the Cross. This piece strongly reflects the styles of Michelangelo, 
+                                    Caravaggio, and Tintoretto, who all significantly influenced Rubens. He completed this painting after returning to Flanders from Italy following his mother's death in 1608. 
+                                    Along with The Descent of the Cross, it was taken from Belgium by Napoleon but was returned toward the end of the 19th century. Both paintings are currently housed in 
+                                    the Cathedral of Our Lady in Antwerp.
+                                </p>
+                                <!-- CLOSE BUTTON -->
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+                
+                <div>   <!-- PARENT 4-->
+                    <!-- PAINTING 10 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/BAROQUE/Rubens/the-four-philosophers.jpg" alt="The Four Philosophers" type="jpg">
+                        </div>
+                        <p>The Four Philosophers</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Rubens/the-four-philosophers.jpg" alt="The Four Philosophers" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Four Philosophers</h1>
+                                <p>1611-1612</p>
+                                <p>
+                                    From left to right, the scene features Peter Paul Rubens, flanked by his brother Philip Rubens, the renowned painter. Next to them stands Justus Lipsius, a prominent scholar 
+                                    of the time, followed by Joannes Woverius, a noted academic. In the background, one can see a striking bust of Seneca, crafted by Peter Paul himself. This bust is now thought 
+                                    to be a reinterpretation of an imaginary Hellenistic portrait that originally depicted the Greek poet Hesiod, adding an intriguing layer of historical connection to the artwork.
+                                </p>
+                                <!-- CLOSE BUTTON -->
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 11 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/BAROQUE/Rubens/the-judgment-of-paris-1.jpg" alt="The Judgment of Paris" type="jpg">
+                        </div>
+                        <p>The Judgment of Paris</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Rubens/the-judgment-of-paris-1.jpg" alt="The Judgment of Paris" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Judgment of Paris</h1>
+                                <p>1636</p>
+                                <p>
+                                    They represent his ideal vision of a full-figured female body. The version from 1938 is regarded as the final piece created by Rubens, as he was suffering from gout at 
+                                    that time, which ultimately contributed to his death in 1640. For the female figures, he used his young bride as a model; they married in 1630 when he was 16 years old, 
+                                    and she frequently served as his idealized depiction of femininity.
+                                </p>
+                                <!-- CLOSE BUTTON -->
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 12 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/BAROQUE/Rubens/the-four-philosophers (2).jpg" alt="Self-Portrait in a Circle of Friends from Mantua" type="jpg">
+                        </div>
+                        <p>Self-Portrait in a Circle of Friends from Mantua</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Rubens/the-four-philosophers (2).jpg" alt="Self-Portrait in a Circle of Friends from Mantua" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Self-Portrait in a Circle of Friends from Mantua</h1>
+                                <p>1611-1612</p>
+                                <p>
+                                    From left to right, the scene features Peter Paul Rubens, flanked by his brother Philip Rubens, the renowned painter. Next to them stands Justus Lipsius, a prominent scholar 
+                                    of the time, followed by Joannes Woverius, a noted academic. In the background, one can see a striking bust of Seneca, crafted by Peter Paul himself. This bust is now thought 
+                                    to be a reinterpretation of an imaginary Hellenistic portrait that originally depicted the Greek poet Hesiod, adding an intriguing layer of historical connection to the artwork.
+                                </p>
+                                <!-- CLOSE BUTTON -->
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </center>
+    </section>        
+        <!---------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------FOOTER-------------------------------------------------->
+    <section id="footer">
+        <div class="flexbox">
+            <h1>ArtClassic</h1>
+
+            <hr>
+            
+            <p>&copy; All  rights reserved.</p>
+        </div>
+    </section>
+        <!------------------------------------------------------------------------------------------------------------>
+</body>
+</html>

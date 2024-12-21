@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="artist.css">
+    
+    <script src="artclassic.js" type="text/javascript"></script>
+    <title>Michelangelo Merisi da Caravaggio </title>
+</head>
+<body>
+        <!--NAVIFATION BAR-->
+    <nav>   
+        <h1 onclick="toggleMenu(this)">&#9776</h1>   
+
+        <section id="menu">
+            <div class="flexbox">
+                <div>
+                    <a href="./homepage.html#title">HOME</a><br>
+                    <a href="./homepage.html#about">ABOUT</a><br>
+                    <a href="./homepage.html#people">PEOPLE</a>
+                </div>
+                
+                <div>
+                    <a href="./homepage.html#service">SERVICES</a><br>
+                    <a href="./homepage.html#gallery">GALLERY</a><br>
+                    <a href="./homepage.html#contact">CONTACT</a>
+                </div>
+            </div>
+        </section>
+
+        <a href="./homepage.html#title">
+            <img src="./IMAGE/LOGO/icon.png" alt="Logo" type="png">
+        </a>
+        <a href="./homepage.html#about">ABOUT</a>
+        <a href="./homepage.html#people">PEOPLE</a>
+        <h1 >ARTClassic</h1>
+        <a href="./homepage.html#service">SERVICES</a>
+        <a href="./homepage.html#gallery">GALLERY</a>
+        <a style="margin-right: 25px;" href="./homepage.html#contact">CONTACT</a>
+    </nav>
+
+        <!--------------------------------------------------DESCRIPTION IMAGE-------------------------------------------------->
+    <section class="description-image">
+        <center>
+            <div class="rectangle">                   
+                <div class="image-container"> 
+                    <img src="./IMAGE/BAROQUE/Caravaggio.jpg " alt="Michelangelo Merisi da Caravaggio " type="jpg">
+                </div>
+
+                    <!--BUTTON-->
+                <a href="./Velazquez.html">
+                    <input type="button" name="button" value="PREVIEW">
+                </a>
+
+                <a href="./Rubens.html">
+                    <input type="button" name="button" value="NEXT">
+                </a>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------DESCRIPTION TEXT-------------------------------------------------->
+    <section class="description-text">
+        <center>
+            <div class="text-container">
+                <h1>Michelangelo Merisi da Caravaggio</h1>
+                <p> 1571–1610</p>
+                <p>
+                    A revolutionary Italian painter, redefined 17th-century art with his intense realism and dramatic use of chiaroscuro. 
+                    Moving to Rome in 1576 to escape the plague, he apprenticed with Simone Peterzano and absorbed the influences 
+                    of Renaissance masters like Leonardo da Vinci and Michelangelo. Caravaggio's works, including The Calling of Saint Matthew and 
+                    The Crucifixion of Saint Peter, depicted religious and mythological scenes with everyday models, breaking from idealized 
+                    traditions to achieve a striking immediacy. Despite a tumultuous life marked by frequent brawls and exile from Rome in 1606, 
+                    Caravaggio's innovative style profoundly influenced artists like Rubens, Rembrandt, and Velázquez, 
+                    securing his legacy as a transformative figure in Western art.
+                </p>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------PAINTING-------------------------------------------------->
+    <section id="painting">
+        <center>
+            <div class="flexbox">
+                <div>   <!-- PARENT 1-->
+                    <!-- PAINTING 1 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/BAROQUE/caravaggio/saint-jerome-writing-caravaggio-1605-6.jpg" alt="Saint Jerome Writing" type="jpg">
+                        </div>
+                        <p>Saint Jerome Writing</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/caravaggio/saint-jerome-writing-caravaggio-1605-6.jpg" alt="Saint Jerome Writing" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Saint Jerome Writing</h1>
+                                <p>1605</p>
+                                <p>
+                                    Saint Jerome Writing, also referred to as Saint Jerome in His Study or simply Saint Jerome, is an oil painting by the Italian artist Caravaggio, 
+                                    typically dated between 1605 and 1606. It is displayed in the Galleria Borghese in Rome. The painting illustrates Saint Jerome, a Doctor of the Church 
+                                    in Roman Catholicism who has often been depicted by various artists, including Caravaggio. In this portrayal, Jerome is shown reading deeply, with one 
+                                    arm extended and resting on a quill. It has been suggested that he is engaged in the translation of the Vulgate, the Latin version of the Bible.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 2 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/BAROQUE/caravaggio/saint-francis-of-assisi-in-ecstasy(1).jpg" alt="Saint Francis of Assisi in Ecstasy" type="jpg">
+                        </div>
+                        <p>Saint Francis of Assisi in Ecstasy</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/caravaggio/saint-francis-of-assisi-in-ecstasy(1).jpg" alt="Saint Francis of Assisi in Ecstasy" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Saint Francis of Assisi in Ecstasy</h1>
+                                <p>1595</p>
+                                <p>
+                                    This painting marks Caravaggio's first foray into religious art and is believed to have been created around 1595, shortly after he joined the 
+                                    household of Cardinal Francesco Maria Del Monte. It depicts Saint Francis of Assisi (the Cardinal's namesake) at the moment he receives the 
+                                    wounds of the Stigmata, which are the same marks left on Christ's body during the Crucifixion. The narrative is recounted by one of Francis' companions, 
+                                    Brother Leo. In 1224, Francis withdrew to the wilderness with a small group of his followers to reflect on God.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 3 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/BAROQUE/caravaggio/cardsharps.jpg" alt="Cardsharps" type="jpg">
+                        </div>
+                        <p>Cardsharps</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/caravaggio/cardsharps.jpg" alt="Cardsharps" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Cardsharps</h1>
+                                <p>1594</p>
+                                <p>
+                                    The artwork depicts a well-dressed but naive boy engaged in a card game with another boy. The second boy, a con artist, has concealed extra cards 
+                                    tucked into his belt, hidden from the unsuspecting player but visible to the audience. A menacing older man looms behind the gullible boy, discreetly 
+                                    signaling to his young partner in crime. The second boy also has a dagger at his side, hinting that danger may be imminent.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+
+                <div>   <!-- PARENT 2-->                    
+                    <!-- PAINTING 4 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/BAROQUE/caravaggio/les-musiciens.jpg" alt="Les Musiciens" type="jpg">
+                        </div>
+                        <p>Les Musiciens</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/caravaggio/les-musiciens.jpg" alt="Les Musiciens" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Les Musiciens</h1>
+                                <p>1595</p>
+                                <p>
+                                    The picture shows four boys in Classical-style costumes. Three of them are playing musical instruments or singing. The fourth boy is dressed as Cupid 
+                                    and reaching for a bunch of grapes. The manuscripts indicate that the boys are practicing songs about love. The lutenist, who is the main figure, has 
+                                    tears in his eyes, suggesting that the songs express the sadness of love instead of its joys.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 5 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/BAROQUE/caravaggio/martyrdom-of-saint-matthew.jpg" alt="Martyrdom of Saint Matthew" type="jpg">
+                        </div>
+                        <p>Martyrdom of Saint Matthew</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/caravaggio/martyrdom-of-saint-matthew.jpg" alt="Martyrdom of Saint Matthew" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Martyrdom of Saint Matthew</h1>
+                                <p>1599-1600</p>
+                                <p>
+                                    Cardinal Contarelli specifically requested this scene before he passed away, detailing that the painting should depict three key elements: a soldier 
+                                    murdering the saint, spectators exhibiting shock and disgust, and some architectural features in the background. An x-ray analysis of the painting reveals 
+                                    that Caravaggio experimented with two different compositions before finalizing the one we observe today, ultimately removing the architectural component altogether.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 6 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/BAROQUE/caravaggio/rest-on-the-flight-into-egypt.jpg" alt="Rest on the Flight into Egypt" type="jpg">
+                        </div>
+                        <p>Rest on the Flight into Egypt</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/caravaggio/rest-on-the-flight-into-egypt.jpg" alt="Rest on the Flight into Egypt" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Rest on the Flight into Egypt</h1>
+                                <p>1597</p>
+                                <p>
+                                    Caravaggio depicts Mary sleeping with the infant Jesus, while Joseph holds a manuscript for an angel who is serenading Mary with a hymn played on the viol. 
+                                    This scene is not based on a specific event from the Bible, but rather on a series of legends that developed in the early Middle Ages surrounding the story of the 
+                                    Holy Family's escape into Egypt after being warned about King Herod's intention to kill the Christ Child.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+
+                <div>   <!-- PARENT 3-->
+                    <!-- PAINTING 7 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/BAROQUE/caravaggio/entombment.jpg" alt="Entombment" type="jpg">
+                        </div>
+                        <p>Entombment</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/caravaggio/entombment.jpg" alt="Entombment" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Entombment</h1>
+                                <p>1603</p>
+                                <p>
+                                    The Entombment is a dramatic depiction of the moment Christ's body is placed in the tomb. The scene captures the grief and agony of his followers. 
+                                    The work contrasts the living figure of Christ, depicted as lifeless and heavy, with the vigorous effort of those around him, such as the figures of 
+                                    Mary Magdalene and Nicodemus, who are shown supporting Christ's body.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 8 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/BAROQUE/caravaggio/crucifixion-of-saint-peter.jpg" alt="Crucifixion of Saint Peter" type="jpg">
+                        </div>
+                        <p>Crucifixion of Saint Peter</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/caravaggio/crucifixion-of-saint-peter.jpg" alt="Crucifixion of Saint Peter" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Crucifixion of Saint Peter</h1>
+                                <p>1600</p>
+                                <p>
+                                    The Crucifixion of Saint Peter was painted by Caravaggio around 1600 and is one of his most intense religious works. The painting shows the apostle 
+                                    Peter being crucified upside down, a fate he chose to face because he felt unworthy of dying in the same manner as Christ. The realism and dramatic 
+                                    expression of the figures are characteristic of Caravaggio's early work.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 9 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/BAROQUE/caravaggio/narcissus.jpg" alt="Narcissus" type="jpg">
+                        </div>
+                        <p>Narcissus</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/caravaggio/narcissus.jpg" alt="Narcissus" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Narcissus</h1>
+                                <p>1597</p>
+                                <p>
+                                    Narcissus was a handsome young man who, according to Greek mythology, became so enamored with his reflection in a pool of water that he stared 
+                                    at it until he died. Caravaggio's version of this myth shows Narcissus gazing at his reflection, his face framed in the water, and the painting emphasizes 
+                                    the tragic outcome of his self-obsession.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+
+                <div>   <!-- PARENT 4-->
+                    <!-- PAINTING 10 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/BAROQUE/caravaggio/conversion-of-saint-paul.jpg" alt="Conversion of Saint Paul" type="jpg">
+                        </div>
+                        <p>Conversion of Saint Paul</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/caravaggio/conversion-of-saint-paul.jpg" alt="Conversion of Saint Paul" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Conversion of Saint Paul</h1>
+                                <p>1601</p>
+                                <p>
+                                    The Conversion of Saint Paul depicts the moment when Saul, a persecutor of Christians, is struck blind by a divine light on his way to Damascus. 
+                                    He is shown in a dramatic moment of falling from his horse, experiencing the physical manifestation of God's intervention. Caravaggio's mastery 
+                                    of light and shadow gives the scene a powerful emotional impact, emphasizing the moment of divine grace and transformation.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 11 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/BAROQUE/caravaggio/ecce-homo.jpg" alt="Ecce Homo" type="jpg">
+                        </div>
+                        <p>Ecce Homo</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/caravaggio/ecce-homo.jpg" alt="Ecce Homo" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Ecce Homo</h1>
+                                <p>1605</p>
+                                <p>
+                                    Ecce Homo, a Latin phrase meaning "Behold the Man," represents the moment when Jesus is presented by Pilate to the crowd before his crucifixion. 
+                                    In this painting, Caravaggio presents a strikingly realistic portrait of Jesus, wearing a crown of thorns, with blood trickling down his face. 
+                                    The figure of Jesus is framed by soldiers who mockingly gesture toward him, creating a scene filled with tension and pathos.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 12 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/BAROQUE/caravaggio/boy-with-a-basket-of-fruit.jpg" alt="Boy with a Basket of Fruit" type="jpg">
+                        </div>
+                        <p>Boy with a Basket of Fruit</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/caravaggio/boy-with-a-basket-of-fruit.jpg" alt="Boy with a Basket of Fruit" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Boy with a Basket of Fruit</h1>
+                                <p>1593</p>
+                                <p>
+                                    Boy with a Basket of Fruit is one of Caravaggio's early works, featuring a young boy holding a basket filled with an assortment of fruits. 
+                                    The painting is an example of Caravaggio’s ability to capture the texture and detail of everyday objects, elevating them to the level of art. 
+                                    The boy’s expression is innocent, yet he appears to be aware of the viewer's gaze. The work highlights Caravaggio’s interest in realism, 
+                                    particularly in his depiction of light and shadow.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+            </center>
+        </section>        
+            <!---------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------FOOTER-------------------------------------------------->
+    <section id="footer">
+        <div class="flexbox">
+            <h1>ArtClassic</h1>
+
+            <hr>
+            
+            <p>&copy; All  rights reserved.</p>
+        </div>
+    </section>
+        <!------------------------------------------------------------------------------------------------------------>
+</body>
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="artist.css">
+    
+    <script src="artclassic.js" type="text/javascript"></script>
+    <title>Eugène Delacroix</title>
+</head>
+<body>
+        <!--NAVIFATION BAR-->
+    <nav>   
+        <h1 onclick="toggleMenu(this)">&#9776</h1>   
+
+        <section id="menu">
+            <div class="flexbox">
+                <div>
+                    <a href="./homepage.html#title">HOME</a><br>
+                    <a href="./homepage.html#about">ABOUT</a><br>
+                    <a href="./homepage.html#people">PEOPLE</a>
+                </div>
+                
+                <div>
+                    <a href="./homepage.html#service">SERVICES</a><br>
+                    <a href="./homepage.html#gallery">GALLERY</a><br>
+                    <a href="./homepage.html#contact">CONTACT</a>
+                </div>
+            </div>
+        </section>
+
+        <a href="./homepage.html#title">
+            <img src="./IMAGE/LOGO/icon.png" alt="Logo" type="png">
+        </a>
+        <a href="./homepage.html#about">ABOUT</a>
+        <a href="./homepage.html#people">PEOPLE</a>
+        <h1 >ARTClassic</h1>
+        <a href="./homepage.html#service">SERVICES</a>
+        <a href="./homepage.html#gallery">GALLERY</a>
+        <a style="margin-right: 25px;" href="./homepage.html#contact">CONTACT</a>
+    </nav>
+
+        <!--------------------------------------------------DESCRIPTION IMAGE-------------------------------------------------->
+    <section class="description-image">
+        <center>
+            <div class="rectangle">                   
+                <div class="image-container"> 
+                    <img src="./IMAGE/ROMANTICISM/Eugène Delacroix.jfif" alt="Eugène Delacroix" type="jfif">
+                </div>
+
+                    <!--BUTTON-->
+                <a href="./Théodore Géricault.html">
+                    <input type="button" name="button" value="PREVIEW">
+                </a>
+
+                <a href="./Francisco Goya.html">
+                    <input type="button" name="button" value="NEXT">
+                </a>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------DESCRIPTION TEXT-------------------------------------------------->
+    <section class="description-text">
+        <center>
+            <div class="text-container">
+                <h1>Eugène Delacroix</h1>
+                <p>1798–1863</p>
+                <p>
+                    A French Romantic artist celebrated for his vibrant use of color, dramatic compositions, and emotive subject matter. 
+                    As one of the leading figures of the Romantic movement, Delacroix drew inspiration from history, literature, and contemporary events, often creating works 
+                    that explored themes of passion, revolution, and human suffering. His innovative techniques and bold style significantly influenced later artists, 
+                    including the Impressionists.
+
+                </p>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------PAINTING-------------------------------------------------->
+    <section id="painting">
+        <center>
+            <div class="flexbox">
+                <!-- PARENT 1 -->
+                <div>
+                    <!-- PAINTING 1 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/Orphan Girl.jpg" alt="Orphan Girl at the Cemetery" type="jpg">
+                        </div>
+                        <p>Orphan Girl at the Cemetery</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/Orphan Girl.jpg" alt="Orphan Girl at the Cemetery" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Orphan Girl at the Cemetery</h1>
+                                <p>1824</p>
+                                <p>
+                                    Orphan Girl at the Cemetery was painted in 1824 by Eugene Delacroix. The painting depicts a young girl visiting a cemetery, 
+                                    most likely located in the French countryside. Her tearful eyes are directed upward, toward heaven. Is she questioning God’s will? 
+                                    Does she look to understand why her loved one was taken from her? Her expression conveys not only sadness, but also emotional pain. 
+                                    The melancholic atmosphere of Orphan Girl at the Cemetery is emphasized by the dimly lit background, the paleness of the sky, and the 
+                                    dark, neglected graveyard, all of which suggest abandonment.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 2 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/The Barque of Dante.jpg" alt="The Barque of Dante" type="jpg">
+                        </div>
+                        <p>The Barque of Dante</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/The Barque of Dante.jpg" alt="The Barque of Dante" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Barque of Dante</h1>
+                                <p>1822</p>
+                                <p>
+                                    The painting is based on Canto VIII of the Inferno, the first part of the 14th-century epic poem "The Divine Comedy" written by the Italian poet Dante Alighieri. 
+                                    The poem is an allegory recording the journey of Dante through Hell along with his guide, the Roman poet Virgil. According to the poem, Hell is made up of 
+                                    nine concentric circles of suffering located within the Earth. Each circle represents one sin, and is the place where those who have committed that sin will receive 
+                                    appropriate punishment.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 3 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/The Massacre at Chios.jpg" alt="The Massacre at Chios" type="jpg">
+                        </div>
+                        <p>The Massacre at Chios</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/The Massacre at Chios.jpg" alt="The Massacre at Chios" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Massacre at Chios</h1>
+                                <p>1824</p>
+                                <p>
+                                    Unusual for a painting of civil ruin during this period, The Massacre at Chios has no heroic figure to counterbalance the crushed victims, and there is little to 
+                                    suggest hope among the ruin and despair. The vigour with which the aggressor is painted, contrasted with the dismal rendition of the victims, has drawn comment 
+                                    since the work was first hung.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+
+                <!-- PARENT 2 -->
+                <div>
+                    <!-- PAINTING 4 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/Liberty Leading the People (1830).jpeg" alt="Liberty Leading the People" type="jpg">
+                        </div>
+                        <p>Liberty Leading the People</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/Liberty Leading the People (1830).jpeg" alt="Liberty Leading the People" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Liberty Leading the People</h1>
+                                <p>1830</p>
+                                <p>
+                                    This iconic painting celebrates the July Revolution of 1830, with Liberty as a heroic figure leading revolutionaries over barricades. She holds the French tricolor flag and 
+                                    symbolizes the fight for freedom. It became a symbol of revolutionary ideals and is one of Delacroix’s most famous works.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 5 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/The Death of Sardanapalus (1827).jpeg" alt="The Death of Sardanapalus" type="jpg">
+                        </div>
+                        <p>The Death of Sardanapalus</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/The Death of Sardanapalus (1827).jpeg" alt="The Death of Sardanapalus" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Death of Sardanapalus</h1>
+                                <p>1827</p>
+                                <p>
+                                    A lavish, chaotic scene depicting the Assyrian king Sardanapalus overseeing the destruction of his possessions and harem as his kingdom falls. Inspired by Lord Byron’s 
+                                    play, the painting reflects Romanticism’s fascination with exoticism, violence, and decadence.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 6 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/Women of Algiers in their Apartment (1834).jpeg" alt="Women of Algiers in Their Apartment" type="jpg">
+                        </div>
+                        <p>Women of Algiers in Their Apartment</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/Women of Algiers in their Apartment (1834).jpeg" alt="Women of Algiers in Their Apartment" type="jpg" >
+                            </div>
+                            <div class="column2">
+                                <h1>Women of Algiers in Their Apartment</h1>
+                                <p>1834</p>
+                                <p>
+                                    A sensuous depiction of three women reclining in a richly adorned Algerian interior, with a servant in the background. Created after Delacroix’s trip to North Africa, 
+                                    it reflects his fascination with the “Orient” and introduces Orientalist themes into Romantic art.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+
+                <!-- PARENT 3 -->
+                <div>
+                    <!-- PAINTING 7 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/Greece on the Ruins of Missolonghi (1826).jpeg" alt="Greece on the Ruins of Missolonghi" type="jpg">
+                        </div>
+                        <p>Greece on the Ruins of Missolonghi</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/Greece on the Ruins of Missolonghi (1826).jpeg" alt="Greece on the Ruins of Missolonghi" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Greece on the Ruins of Missolonghi</h1>
+                                <p>1826</p>
+                                <p>
+                                    A symbolic painting of a woman personifying Greece standing amidst the ruins of Missolonghi, a city besieged during the Greek War of Independence. A tribute to Greek 
+                                    resistance and independence, reflecting Romanticism’s political engagement.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 8 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/Christ on the Sea of Galilee (1854).jpeg" alt="Christ on the Sea of Galilee" type="jpg">
+                        </div>
+                        <p>Christ on the Sea of Galilee</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/Christ on the Sea of Galilee (1854).jpeg" alt="Christ on the Sea of Galilee" type="jpg" alt="Christ on the Sea of Galilee">
+                            </div>
+                            <div class="column2">
+                                <h1>Christ on the Sea of Galilee</h1>
+                                <p>1854</p>
+                                <p>
+                                    This dramatic painting depicts Christ and his disciples on a storm-tossed boat, highlighting their fear and Christ's serenity amidst the chaos. It showcases Delacroix's 
+                                    mastery of movement, light, and the power of nature, themes central to Romanticism.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                    
+                    <!-- PAINTING 9 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/The Battle of Nancy.jpeg" alt="The Battle of Nancy" type="jpg">
+                        </div>
+                        <p>The Battle of Nancy</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/The Battle of Nancy.jpeg" alt="The Battle of Nancy" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Battle of Nancy</h1>
+                                <p>1831</p>
+                                <p>
+                                    A dynamic depiction of the final moments of Charles the Bold, Duke of Burgundy, during the Battle of Nancy in 1477, with vivid details of the chaotic conflict. This 
+                                    historical work reflects Delacroix’s interest in medieval themes and the drama of warfare.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+
+                <!-- PARENT 4 -->
+                <div>           
+                    <!-- PAINTING 10 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/The Lion Hunt (1855).jpeg" alt="The Lion Hunt (1855).jpeg" type="jpg">
+                        </div>
+                        <p>The Lion Hunt</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/The Lion Hunt (1855).jpeg" alt="The Lion Hunt (1855).jpeg" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Lion Hunt</h1>
+                                <p>1840</p>
+                                <p>
+                                    This large-scale painting depicts the Crusaders entering Constantinople in 1204. A vivid and dramatic scene, it combines Romanticism’s focus on historical events with 
+                                    Delacroix’s vivid colors and expressive figures, conveying both the energy of the crusaders and the grandeur of the city.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 11 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/The Tiger Hunt (1854).jpeg" alt="The Tiger Hunt" type="jpg">
+                        </div>
+                        <p>The Tiger Hunt</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/The Tiger Hunt (1854).jpeg" alt="The Tiger Hunt" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Tiger Hunt</h1>
+                                <p>1854</p>
+                                <p>
+                                    The Tiger Hunt by Eugène Delacroix is an exhilarating depiction of a tiger hunt in the wild, showcasing the artist's fascination with the exotic and the untamed. 
+                                    The work portrays an intense struggle between man and nature, emphasizing the dramatic movement and emotion typical of Romantic art. 
+                                    The vivid colors and action-packed composition make this painting one of Delacroix's most celebrated works.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 12 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/Medea About to Kill Her Children (1838).jpeg" alt="Medea About to Kill Her Children" type="jpg">
+                        </div>
+                        <p>Medea About to Kill Her Children</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Eugène Delacroix Arts/Medea About to Kill Her Children (1838).jpeg" alt="Medea About to Kill Her Children" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Medea About to Kill Her Children</h1>
+                                <p>1838</p>
+                                <p>
+                                    In this haunting and dramatic work, Delacroix portrays Medea, the mythological figure from Greek tragedy, in the act of preparing to murder her children. 
+                                    The intensity of emotion and psychological depth are captured through the swirling composition and vibrant colors. 
+                                    Delacroix's rendering of Medea's expression highlights the tragedy and rage that drive her actions.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </center>
+    </section>        
+        <!---------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------FOOTER-------------------------------------------------->
+    <section id="footer">
+        <div class="flexbox">
+            <h1>ArtClassic</h1>
+
+            <hr>
+            
+            <p>&copy; All  rights reserved.</p>
+        </div>
+    </section>
+        <!------------------------------------------------------------------------------------------------------------>
+</body>
+</html>

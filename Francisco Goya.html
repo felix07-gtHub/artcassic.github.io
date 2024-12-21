@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="artist.css">
+    
+    <script src="artclassic.js" type="text/javascript"></script>
+    <title>Francisco Goya</title>
+</head>
+<body>
+        <!--NAVIFATION BAR-->
+    <nav>   
+        <h1 onclick="toggleMenu(this)">&#9776</h1>   
+
+        <section id="menu">
+            <div class="flexbox">
+                <div>
+                    <a href="./homepage.html#home">HOME</a><br>
+                    <a href="./homepage.html#about">ABOUT</a><br>
+                    <a href="./homepage.html#people">PEOPLE</a>
+                </div>
+                
+                <div>
+                    <a href="./homepage.html#services">SERVICES</a><br>
+                    <a href="./homepage.html#gallery">GALLERY</a><br>
+                    <a href="./homepage.html#contact">CONTACT</a>
+                </div>
+            </div>
+        </section>
+
+        <a href="./homepage.html#title">
+            <img src="./IMAGE/LOGO/icon.png" alt="Logo" type="png">
+        </a>
+        <a href="./homepage.html#aboutsection">ABOUT</a>
+        <a href="./homepage.html#peoplesection">PEOPLE</a>
+        <h1 >ARTClassic</h1>
+        <a href="./homepage.html#servicessection">SERVICES</a>
+        <a href="./homepage.html#gallerysection">GALLERY</a>
+        <a style="margin-right: 25px;" href="./homepage.html#contactsection">CONTACT</a>
+    </nav>
+
+        <!--------------------------------------------------DESCRIPTION IMAGE-------------------------------------------------->
+    <section class="description-image">
+        <center>
+            <div class="rectangle">                   
+                <div class="image-container"> 
+                    <img src="./IMAGE/ROMANTICISM/Francisco Goya.jfif" alt="Francisco Goya" type="jfif">
+                </div>
+
+                    <!--BUTTON-->
+                <a href="./Eugène Delacroix.html">
+                    <input type="button" name="button" value="PREVIEW">
+                </a>
+
+                <a href="./Théodore Géricault.html">
+                    <input type="button" name="button" value="NEXT">
+                </a>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------DESCRIPTION TEXT-------------------------------------------------->
+    <section class="description-text">
+        <center>
+            <div class="text-container">
+                <h1>Francisco Goya</h1>
+                <p>1746–1828</p>
+                <p>
+                    Francisco Goya was a prominent Spanish painter and printmaker, often regarded as one of the most important and influential artists of the late 18th and early 19th centuries. His work bridges the transition between the Old Masters and modern art, reflecting both the grandeur of his time and its darker aspects.
+
+                </p>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------PAINTING-------------------------------------------------->
+    <section id="painting">
+        <center>
+            <div class="flexbox">
+                <!-- PARENT 1 -->
+                <div>
+                    <!-- PAINTING 1 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/Charles IV of Spain and His Family (1800).webp" alt="Charles IV of Spain and His Family" type="webp">
+                        </div>
+                        <p>Charles IV of Spain and His Family</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/Charles IV of Spain and His Family (1800).webp" alt="Charles IV of Spain and His Family" type="webp">
+                            </div>
+                            <div class="column2">
+                                <h1>Charles IV of Spain and His Family</h1>
+                                <p>1800</p>
+                                <p>
+                                    This monumental family portrait by Francisco Goya depicts King Charles IV of Spain and his family. The painting showcases the 
+                                    royal family in a highly personal, almost intimate light. Goya portrays them in a setting that emphasizes both their royal 
+                                    status and human qualities, breaking away from the usual formal, idealized depictions of monarchs. Each family member is 
+                                    depicted with a sense of realism that reveals their personalities.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 2 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/Isabel de porcel.jpg" alt="Portrait of Doña Isabel de Porcel" type="jpg">
+                        </div>
+                        <p>Portrait of Doña Isabel de Porcel</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/Isabel de porcel.jpg" alt="Portrait of Doña Isabel de Porcel" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Portrait of Doña Isabel de Porcel</h1>
+                                <p>1805</p>
+                                <p>
+                                    Francisco de Goya’s ‘Portrait of Doña Isabel de Porcel’ was among the first paintings by the Spanish artist to enter the 
+                                    National Gallery in 1896. This portrait is heralded as one of Goya’s most dazzling works, capturing the subject's elegance 
+                                    and poise. However, its flamboyant style has led to debates regarding its attribution to Goya, with some scholars casting 
+                                    doubts over its authenticity.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 3 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/Saturn Devouring His Son.jpg" alt="Saturn Devouring His Son" type="jpg">
+                        </div>
+                        <p>Saturn Devouring His Son</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/Saturn Devouring His Son.jpg" alt="Saturn Devouring His Son" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Saturn Devouring His Son</h1>
+                                <p>1821-1823</p>
+                                <p>
+                                    This haunting work by Goya depicts the mythological story of Saturn, who devoured his own children to prevent them from 
+                                    overthrowing him. Painted during Goya's time of personal isolation, it is a powerful reflection on old age, tyranny, and 
+                                    human brutality. The darkness of the painting’s mood mirrors the turmoil of the artist’s own life, as well as the horrors 
+                                    of war.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+
+                <!-- PARENT 2 -->
+                <div>
+                    <!-- PAINTING 4 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/Self-Portrait with Doctor Arrieta (1820).jpeg" alt="Self-Portrait with Doctor Arrieta" type="jpg">
+                        </div>
+                        <p>Self-Portrait with Doctor Arrieta</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/Self-Portrait with Doctor Arrieta (1820).jpeg" alt="Self-Portrait with Doctor Arrieta" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Self-Portrait with Doctor Arrieta</h1>
+                                <p>1820</p>
+                                <p>
+                                    This deeply personal painting by Goya depicts the artist himself, gravely ill, supported by his doctor, Arrieta, who saved 
+                                    his life during a critical illness. The dark and shadowy figures in the background add a sense of foreboding to the scene, 
+                                    emphasizing the gravity of Goya’s condition. The work is a poignant tribute to the doctor and an exploration of Goya's 
+                                    mortality.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 5 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Clothed Maja (1800–1805).jpeg" alt="The Clothed Maja" type="jpg">
+                        </div>
+                        <p>The Clothed Maja</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Clothed Maja (1800–1805).jpeg" alt="The Clothed Maja" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Clothed Maja</h1>
+                                <p>1800-1805</p>
+                                <p>
+                                    A counterpart to Goya’s earlier painting, The Nude Maja, this painting features the same woman, fully clothed in elegant attire. 
+                                    The juxtaposition of the two paintings highlights the themes of sensuality and modesty, exploring the contrasts in human nature. 
+                                    The Clothed Maja was as controversial as its nude counterpart, challenging traditional depictions of women in art.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 6 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Colossus (1808–1812).jpeg" alt="The Colossus" type="jpg">
+                        </div>
+                        <p>The Colossus</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Colossus (1808–1812).jpeg" alt="The Colossus" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Colossus</h1>
+                                <p>1808-1812</p>
+                                <p>
+                                    The Colossus is a monumental painting that depicts a giant figure towering over a desolate landscape. The figure is a symbol 
+                                    of power, or possibly the looming threat of war. This work is thought to be an allegory of the terror and uncertainty during 
+                                    the Napoleonic invasion of Spain, with the giant representing the overwhelming force of war.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+
+                <!-- PARENT 3 -->
+                <div>
+                    <!-- PAINTING 7 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Disasters of War (1810–1820).jpeg" alt="The Disasters of War" type="jpeg" >
+                        </div>
+                        <p>The Disasters of War</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Disasters of War (1810–1820).jpeg" alt="The Disasters of War" type="jpeg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Disasters of War</h1>
+                                <p>1810-1820</p>
+                                <p>
+                                    The Disasters of War is a harrowing series of prints by Goya, depicting the brutal and violent realities of the Peninsular War. 
+                                    The graphic depictions of suffering, death, and devastation are a stark commentary on the horrors of conflict. The series was 
+                                    not published during Goya’s lifetime due to its political nature and the shocking realism of the images.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 8 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Dog (1819–1823).jpeg" alt="The Dog" type="jpg">
+                        </div>
+                        <p>The Dog</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Dog (1819–1823).jpeg" alt="The Dog" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Dog</h1>
+                                <p>1819-1823</p>
+                                <p>
+                                    The Dog is one of the most iconic works of Goya’s Black Paintings, depicting a small dog’s head peering upward from a vast, 
+                                    undefined space. The minimalist composition and lack of context suggest themes of isolation, helplessness, and despair. The 
+                                    painting’s ambiguity has led to various interpretations, including reflections on Goya’s own sense of alienation during his 
+                                    later years.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 9 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Nude Maja (1797–1800).jpeg" alt="The Nude Maja" type="jpeg">
+                        </div>
+                        <p>The Nude Maja</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Nude Maja (1797–1800).jpeg" alt="The Nude Maja" type="jpeg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Nude Maja</h1>
+                                <p>1797-1800</p>
+                                <p>
+                                    The Nude Maja is one of Goya's most famous works, depicting a reclining woman in a provocative pose. It is notable for its 
+                                    direct and unapologetic sensuality, which sparked considerable controversy in its time. Goya’s painting is often regarded 
+                                    as a precursor to modern art’s more liberated depictions of the female body.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+
+                <!-- PARENT 4 -->
+                <div>
+                    <!-- PAINTING 10 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Sleep of Reason Produces Monsters (1799)_.jpeg" alt="The Sleep of Reason Produces Monsters" type="jpeg">
+                        </div>
+                        <p>The Sleep of Reason Produces Monsters</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Sleep of Reason Produces Monsters (1799)_.jpeg" alt="The Sleep of Reason Produces Monsters" type="jpeg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Sleep of Reason Produces Monsters</h1>
+                                <p>1799</p>
+                                <p>
+                                    This etching by Goya is one of his most iconic works, showcasing a dreamlike and haunting vision of the artist’s own fears. 
+                                    It depicts a man asleep, surrounded by terrifying creatures that represent the consequences of abandoning reason. The image 
+                                    is often interpreted as a commentary on the chaos and irrationality that characterized Spain during Goya’s lifetime.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 11 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Third of May 1808.jpg" alt="The Third of May 1808" type="jpg">
+                        </div>
+                        <p>The Third of May 1808</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/The Third of May 1808.jpg" alt="The Third of May 1808" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Third of May 1808</h1>
+                                <p>1814</p>
+                                <p>
+                                    This powerful and emotional painting by Goya commemorates the atrocities committed during the Peninsular War. It depicts 
+                                    the execution of Spanish civilians by French soldiers. The work is celebrated for its dramatic use of light and shadow, 
+                                    as well as its stark portrayal of human suffering and violence.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 12 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/Witches_ Sabbath (1797–1798).jpeg" alt="Witches' Sabbath" type="jpeg">
+                        </div>
+                        <p>Witches' Sabbath</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/ROMANTICISM/Francisco Goya Arts/Witches_ Sabbath (1797–1798).jpeg" alt="Witches' Sabbath" type="jpeg">
+                            </div>
+                            <div class="column2">
+                                <h1>Witches' Sabbath</h1>
+                                <p>1797-1798</p>
+                                <p>
+                                    This eerie painting by Goya depicts a dark gathering of witches and a goat-headed figure, perhaps representing Satan. The 
+                                    painting’s disturbing atmosphere, combined with Goya’s masterful use of light and shadow, evokes a sense of fear and 
+                                    superstition, themes that were pervasive in the period.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </center>
+    </section>        
+        <!---------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------FOOTER-------------------------------------------------->
+    <section id="footer">
+        <div class="flexbox">
+            <h1>ArtClassic</h1>
+
+            <hr>
+            
+            <p>&copy; All  rights reserved.</p>
+        </div>
+    </section>
+        <!------------------------------------------------------------------------------------------------------------>
+</body>
+</html>

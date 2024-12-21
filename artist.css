@@ -1,0 +1,405 @@
+    /* BODY */
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+   
+/* NAVIGATION BAR */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+}
+
+/* MENU ICON */
+nav > h1 {
+    color: #5b5247;
+    display: none;
+    cursor: pointer;
+    margin: 0
+}
+
+/*
+    HIDES THE LINKS IN THE
+    NAVIGATION BAR TO AVOID
+    OVERFLOWING (DK THE TERM
+    LOL) WHEN THE SPACE IS
+    NOT ENOUGH AND SHOWS THE
+    MENU ICON CONTAINING THE
+    LINKS.
+                                */
+@media (max-width: 891px) {
+    nav > a {
+        display: none;
+    }
+
+    nav > h1 {
+        display: block;
+        margin-left: 25px;
+    }
+}
+
+/* MENU */
+nav > #menu {
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    display: none;
+}
+
+nav > #menu > .flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #5b5247;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > #menu > .flexbox > div {
+    text-align: center;
+    margin: 25px;
+}
+
+nav > #menu a {
+    line-height: 1.75em;
+    text-decoration: none;
+    color: #31241e;
+}
+
+nav > #menu a:hover {
+    color: #d1c8c1;
+}
+
+nav > a > img {
+    height: 40px;
+}
+
+nav > #menu + a {
+    background-color: #5b5247;
+    color: #fff;
+    padding: 2px 16px;
+    margin-left: 25px;
+    padding-top: 6px;
+}
+
+nav > #menu + a:hover {
+    background-color: #fff;
+    color: #5b5247;
+}
+
+nav > a {
+    padding: 16px;
+    text-decoration: none;
+    color: #5b5247;
+    font-weight: bolder;
+}
+
+nav > a:hover {
+    color: #fff;
+    background-color: #5b5247;
+}
+
+nav > a + h1 {
+    color: #5b5247;
+    margin: auto;
+    display: block;
+    cursor: default;
+}
+
+    /* DESCRIPTION*/    
+.description-image { 
+    padding-top: 75px;
+    min-height: 625px;
+    padding-bottom: 25px;
+}
+
+.description-image .rectangle {
+    position: relative;
+    justify-items: center;
+    max-width: 1100px;
+    border: solid #af9d81;
+}
+
+.description-image .image-container {
+    position: relative;
+    max-width: 550px;
+    padding: 75px 25px;
+    box-sizing: border-box;
+    align-content: center;
+    height: 540px;
+    text-align: center;
+}
+
+.description-image .image-container > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.description-image .rectangle > a {
+    text-decoration: none;
+}
+.description-image .rectangle >  a > input[type="button"] {
+    width: 137.5px;
+}
+
+    /* DESCRIPTION TEXT*/    
+.description-text .text-container {
+    align-content: center;
+    max-width: 550px;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+.description-text .text-container > h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #31241e;
+}
+
+.description-text .text-container > h1 + p {
+    font-weight: bolder;
+    font-size: small;
+    width: 100%;
+    margin: 0;
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #31241e;
+}
+
+.description-text .text-container > p ~ p {
+    margin: 0;
+    margin-bottom: 25px;
+    text-align: justify;
+    color: #fff;
+    text-indent: 2em;
+}
+
+     /* PAINTING */
+#painting { 
+    padding: 50px 0;
+    min-height: 625px;
+}
+#painting > center > .flexbox {
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+}
+
+#painting > center > .flexbox > div {
+    width: 24%;
+    margin: 0 6.25px;
+    position: relative;
+}
+
+#painting > center > .flexbox > div > div {
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+#painting div > .small-image {
+    width: 100%;
+    height: 175px;
+    transition: transform 0.2s;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #5b524725;
+}
+
+#painting div > .medium-image {
+    width: 100%;
+    height: 220px;
+    transition: transform 0.2s;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #5b524725;
+}
+
+#painting div > .large-image {
+    width: 100%;
+    height: 300px;
+    transition: transform 0.2s;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #5b524725;
+}
+
+#painting > center > .flexbox > div > div > div > img {
+    height: 100%;
+}
+
+#painting > center > .flexbox > div > div > p {
+    text-align: center;
+    color: #5b5247;
+    margin: 0;
+    transition: transform 0.2s;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+@media (max-width: 891px) {
+    #painting > center > .flexbox {
+        flex-wrap: wrap;
+    }
+
+    #painting > center > .flexbox > div {
+        width: 44%;
+    }
+}
+
+    /* PAINTING DESCRIPTION */
+.painting-description { 
+    padding: 50px 15px;
+    height: 100%;
+    justify-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: none;
+    box-sizing: border-box;
+    padding-top: 100px;
+    z-index: 2;
+}
+
+.painting-description > .flexbox {
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    background-color: #000;
+    height: 100%;
+    overflow: auto;
+    box-shadow: 0 0 10px #fff;  
+}
+
+.painting-description .column1 {
+    width: 50%;
+    padding: 75px 25px;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.painting-description .column1 > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.painting-description .column2 {
+    align-content: center;
+    text-align: center;
+    width: 50%;
+    padding: 50px 15px;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.painting-description .column2 > h1 {
+    font-size: 3em;
+    margin: 0;
+    width: 100%;
+    color: #31241e;    
+}
+
+.painting-description .column2 > h1 + p {
+    font-weight: bolder;
+    font-size: small;
+    width: 100%;
+    margin: 0;
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #31241e;
+}
+
+.painting-description .column2 > p + p {
+    margin: 0;
+    margin-bottom: 25px;
+    width: 100%;
+    text-align: justify;
+    color: #fff;
+    text-indent: 2em;
+}
+
+.painting-description > .flexbox > input[type="button"] {
+    position: fixed;
+    bottom: 50px;
+}
+
+@media (max-width: 743.25px) {   
+    .painting-description > .flexbox {
+        flex-wrap: wrap;
+    }
+
+    .painting-description > .flexbox > .column1 {
+        width: 100%;
+    }
+
+    .painting-description .column2 {
+        width: 100%;
+    }
+}
+
+/* BUTTON */
+input[type="button"] {
+    max-width: 275px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #d1c8c1;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 25px 0;
+    position: relative;
+    width: 100%;
+}
+
+input[type="button"]:hover {
+    background-color: #fff;
+    color: #d1c8c1;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #fff;
+    transition: transform 0.2s;
+}
+
+    /* FOOTER */
+#footer > .flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+#footer h1 {
+    font-size: 2em;
+    color: #5b5247;
+    width: 75%;
+    text-align: center;
+}
+
+#footer hr {
+    height: 75px;
+    border: 1px solid #5b5247;
+    margin: 0 15px;
+}
+
+#footer p {
+    width: 25%;
+    text-align: center;
+    color: #5b5247;
+}

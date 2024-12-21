@@ -1,0 +1,253 @@
+/* General body styles */
+    /* BODY */
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+   
+/* NAVIGATION BAR */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+/* MENU ICON */
+nav > h1 {
+    color: #5b5247;
+    display: none;
+    cursor: pointer;
+    margin: 0
+}
+
+/*
+    HIDES THE LINKS IN THE
+    NAVIGATION BAR TO AVOID
+    OVERFLOWING (DK THE TERM
+    LOL) WHEN THE SPACE IS
+    NOT ENOUGH AND SHOWS THE
+    MENU ICON CONTAINING THE
+    LINKS.
+                                */
+@media (max-width: 891px) {
+    nav > a {
+        display: none;
+    }
+
+    nav > h1 {
+        display: block;
+        margin-left: 25px;
+    }
+}
+
+/* MENU */
+nav > #menu {
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    display: none;
+}
+
+nav > #menu > .flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #5b5247;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > #menu > .flexbox > div {
+    text-align: center;
+    margin: 25px;
+}
+
+nav > #menu a {
+    line-height: 1.75em;
+    text-decoration: none;
+    color: #31241e;
+}
+
+nav > #menu a:hover {
+    color: #d1c8c1;
+}
+
+nav > a > img {
+    height: 40px;
+}
+
+nav > #menu + a {
+    background-color: #5b5247;
+    color: #fff;
+    padding: 2px 16px;
+    margin-left: 25px;
+    padding-top: 6px;
+}
+
+nav > #menu + a:hover {
+    background-color: #fff;
+    color: #5b5247;
+}
+
+nav > a {
+    padding: 16px;
+    text-decoration: none;
+    color: #5b5247;
+    font-weight: bolder;
+}
+
+nav > a:hover {
+    color: #fff;
+    background-color: #5b5247;
+}
+
+nav > a + h1 {
+    color: #5b5247;
+    margin: auto;
+    display: block;
+    cursor: default;
+}
+
+p, ul {
+    margin: 0;
+    color: #fff;
+}
+
+em {
+    font-size: x-small; 
+    color: #5b5247;
+}
+
+/* Main table styling */
+.resume-table-header, .resume-table-body {
+    max-width: 779px;
+    width: 100%;
+    background-color: #5b524725;
+    padding: 15px;
+}
+
+.resume-table-header > tr > td + td {
+    justify-items: center;
+}
+
+/* Header styles */
+.resume-table-header h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0%;
+    color: #31241e;
+}
+
+/* Paragraph styles */
+.resume-info p {
+    text-align: center;
+}
+
+/* Image styling */
+.resume-table-header img {
+    width: 100%;
+    color: #fff;
+}
+
+.signature {
+    justify-items: center;
+}
+
+.signature div {
+    max-width: 1in;
+    max-height: 1in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Signature image */
+.signature img {
+    max-width: 100%;
+    max-height: 100%;
+    color: #fff;
+}
+
+/* Signature line */
+.signature hr {
+    width: 75%;
+    margin: 0;
+}
+
+/* Section title for each part (EXPERIENCE, EDUCATION, etc.) */
+.section-title {
+    background-color: #31241e   ;
+    color: #5b5247;
+}
+
+/* Profile and experience sections */
+.profileExperience-section td {
+    height: 125px;
+    vertical-align: top;
+    text-align: justify;
+}
+
+/* Personal data table */
+.personal-data-table table {
+    font-size: small;
+    min-height: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Skills section */
+.personal-data-table > td + td {
+    height: 125px;
+    vertical-align: top;
+}
+
+/* Education and references section */
+.education-reference-section td {
+    height: 125px;
+    vertical-align: top;
+}
+
+.education-reference-section li {
+    margin-bottom: 2px;
+}
+
+.education-reference-section li > p + p {
+    color: #af9d81;
+}
+
+   /* FOOTER */
+#footer > .flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+#footer h1 {
+    font-size: 2em;
+    color: #5b5247;
+    width: 75%;
+    text-align: center;
+}
+
+#footer hr {
+    height: 75px;
+    border: 1px solid #5b5247;
+    margin: 0 15px;
+}
+
+#footer p {
+    width: 25%;
+    text-align: center;
+    color: #5b5247;
+}

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="artist.css">
+    
+    <script src="artclassic.js" type="text/javascript"></script>
+    <title>Diego Rodríguez de Silva y Velázquez</title>
+</head>
+<body>
+        <!--NAVIFATION BAR-->
+    <nav>   
+        <h1 onclick="toggleMenu(this)">&#9776</h1>   
+
+        <section id="menu">
+            <div class="flexbox">
+                <div>
+                    <a href="./homepage.html#title">HOME</a><br>
+                    <a href="./homepage.html#about">ABOUT</a><br>
+                    <a href="./homepage.html#people">PEOPLE</a>
+                </div>
+                
+                <div>
+                    <a href="./homepage.html#service">SERVICES</a><br>
+                    <a href="./homepage.html#gallery">GALLERY</a><br>
+                    <a href="./homepage.html#contact">CONTACT</a>
+                </div>
+            </div>
+        </section>
+
+        <a href="./homepage.html#title">
+            <img src="./IMAGE/LOGO/icon.png" alt="Logo" type="png">
+        </a>
+        <a href="./homepage.html#about">ABOUT</a>
+        <a href="./homepage.html#people">PEOPLE</a>
+        <h1 >ARTClassic</h1>
+        <a href="./homepage.html#service">SERVICES</a>
+        <a href="./homepage.html#gallery">GALLERY</a>
+        <a style="margin-right: 25px;" href="./homepage.html#contact">CONTACT</a>
+    </nav>
+
+    <!--------------------------------------------------DESCRIPTION IMAGE-------------------------------------------------->
+    <section class="description-image">
+        <center>
+            <div class="rectangle">                   
+                <div class="image-container"> 
+                    <img src="./IMAGE/BAROQUE/Diego Rodríguez de Silva y Velázquez.jpg" alt="Diego Rodríguez de Silva y Velázquez" type="jpg">
+                </div>
+
+                    <!--BUTTON-->
+                <a href="./Rubens.html">
+                    <input type="button" name="button" value="PREVIEW">
+                </a>
+
+                <a href="./Caravaggio.html">
+                    <input type="button" name="button" value="NEXT">
+                </a>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+       <!--------------------------------------------------DESCRIPTION TEXT-------------------------------------------------->
+    <section class="description-text">
+        <center>
+            <div class="text-container">
+                <h1>Diego Rodríguez de Silva y Velázquez</h1>
+                <p>1599–1660</p>
+                <p>
+                    A Spanish Baroque master, began his artistic journey in Seville under Francisco Pacheco before establishing his own studio in 1617. 
+                    Influenced by Renaissance greats like Michelangelo, Leonardo da Vinci, Raphael, and Titian, as well as the realism of Caravaggio, 
+                    Velázquez became court painter to King Philip IV, producing dynamic portraits of the royal family, nobility, and dwarves. 
+                    His works, known for their vibrant colors, movement, and innovative techniques, include masterpieces like Las Meninas and 
+                    Pope Innocent X. Knighted in 1658, Velázquez also contributed to royal events, such as the wedding of Louis XIV and Maria Teresa.
+                     His artistry, blending realism with psychological depth, solidified his legacy as a pivotal figure in Western art history.
+                </p>
+            </div>
+        </center>
+    </section>
+        <!--------------------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------PAINTING-------------------------------------------------->
+    <section id="painting">
+        <center>
+            <div class="flexbox">
+                <div>   <!-- PARENT 1-->
+                    <!-- PAINTING 1 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/BAROQUE/Velazquez/adoration-of-the-kings.jpg" alt="Adoration of the Kings" type="jpg">
+                        </div>
+                        <p>Adoration of the Kings</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Velazquez/adoration-of-the-kings.jpg" alt="Adoration of the Kings" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Adoration of the Kings</h1>
+                                <p>1619</p>
+                                <p>
+                                    The scene depicts three kings offering gifts to the Christ child: Melchoir, who is kneeling in the front; Balthazar, 
+                                    standing behind him in a red cape and a lace collar; and Caspar, positioned between the two. Behind Balthazar, an 
+                                    unnamed young man watches the event. Near the Virgin's left shoulder, Saint Joseph is kneeling.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 2 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/BAROQUE/Velazquez/coronation-of-the-virgin.jpg" alt="Coronation of the Virgin" type="jpg">
+                        </div>
+                        <p>Coronation of the Virgin</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Velazquez/coronation-of-the-virgin.jpg" alt="Coronation of the Virgin" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Coronation of the Virgin</h1>
+                                <p>1641-1644</p>
+                                <p>
+                                    On the viewer's right is God the Father, depicted as a venerable old man, while on the left stands the long-haired 
+                                    figure of Jesus Christ. They are depicted holding Mary's crown above her head together. In the center, the Holy 
+                                    Spirit is shown as a white dove. The heads of these two figures and the dove are aligned on the same horizontal 
+                                    level at the base of the triangle, symbolizing their equality within the Holy Trinity. Additionally, the cherubs 
+                                    surrounding the Virgin at the bottom of the painting possess a pictorial quality that rivals that of Murillo, who 
+                                    is well-known for his cherub-themed artworks.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 3 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/BAROQUE/Velazquez/don-baltasar-carlos-with-a-dwarf-1632.jpg" alt="Don Baltasar Carlos with a Dwarf" type="jpg">
+                        </div>
+                        <p>Don Baltasar Carlos with a Dwarf</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Velazquez/don-baltasar-carlos-with-a-dwarf-1632.jpg" alt="Don Baltasar Carlos with a Dwarf" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Don Baltasar Carlos with a Dwarf</h1>
+                                <p>1632</p>
+                                <p>
+                                    The prince is depicted wearing a captain-general's uniform, tailored to his young age but still featuring a commander's 
+                                    baton in his right hand, a shoulder sash, and a sword hilt in his left. In contrast, the dwarf is holding an apple and 
+                                    a rattle, highlighting the difference between the infant heir to one of Europe's most formidable monarchies and a 
+                                    typical child with customary toys. The prince's rigid posture stands in stark contrast to the dynamic pose of the 
+                                    dwarf, who is turned to look at the prince. This has led some art historians to speculate that the painting originally 
+                                    focused solely on the prince, with the dwarf added at a later time.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+                
+                <div>   <!-- PARENT 2-->
+                    <!-- PAINTING 4 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/BAROQUE/Velazquez/don-sebastian-de-morra-.jpg" alt="Don Sebastian de Morra" type="jpg">
+                        </div>
+                        <p>Don Sebastian de Morra</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Velazquez/don-sebastian-de-morra-.jpg" alt="Don Sebastian de Morra" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Don Sebastian de Morra</h1>
+                                <p>1645</p>
+                                <p>
+                                    The artwork depicts his entire body seated on the ground, clad in an elaborate cloak, with his short legs extended 
+                                    forward in an awkward way that brings to mind a marionette. He gazes directly at the viewer, remaining completely still 
+                                    and making no gestures, which has prompted one critic to propose that the painting serves as a critique of the court's 
+                                    treatment of de Morra and other dwarfs.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 5 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/BAROQUE/Velazquez/portrait-of-infante-don-carlos-1627.jpg" alt="Portrait of Infante Don Carlos" type="jpg">
+                        </div>
+                        <p>Portrait of Infante Don Carlos</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Velazquez/portrait-of-infante-don-carlos-1627.jpg" alt="Portrait of Infante Don Carlos" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Portrait of Infante Don Carlos</h1>
+                                <p>1627</p>
+                                <p>
+                                    In a calm and sophisticated stance, the figure is dressed in a black outfit featuring grey braids and adorned with a 
+                                    substantial gold shoulder chain depicting the Order of the Golden Fleece. He holds a hat in his left hand and a glove 
+                                    in his right. Positioned in the darkest area of the space, the artist included a 4 cm strip on each side to enhance 
+                                    its impression of authority.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 6 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/BAROQUE/Velazquez/portrait-of-pope-innocent-x.jpg" alt="Portrait of Pope Innocent X" type="jpg">
+                        </div>
+                        <p>Portrait of Pope Innocent X</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Velazquez/portrait-of-pope-innocent-x.jpg" alt="Portrait of Pope Innocent X" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Portrait of Pope Innocent X</h1>
+                                <p>1650</p>
+                                <p>
+                                    He proposed to create a portrait of the Pope, but Innocent X was skeptical and questioned Velázquez's reputation. 
+                                    In response, he requested that Velázquez provide some evidence of his painting abilities. It was at this point that 
+                                    Velázquez is believed to have painted a portrait of his servant, Juan de Pareja. However, experts are uncertain about 
+                                    the accuracy of this account, suggesting that the Pope allowed Velázquez to portray him because the artist had 
+                                    previously achieved considerable success painting other members of the papal court, including the Pope's own barber.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+                
+                <div>   <!-- PARENT 3-->
+                    <!-- PAINTING 7 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/BAROQUE/Velazquez/the-needlewoman-1643.jpg" alt="The Needlewoman" type="jpg">
+                        </div>
+                        <p>The Needlewoman</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Velazquez/the-needlewoman-1643.jpg" alt="The Needlewoman" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Needlewoman</h1>
+                                <p>1643</p>
+                                <p>
+                                    The Needlewoman is an incomplete portrait, with the head, rendered in light and shadow, being the most developed 
+                                    area. The arms and hands are only lightly sketched. This piece showcases Velázquez's skill in capturing gesture, 
+                                    his technique of quickly defining the figure, and his talent for conveying how the subject blends into the surrounding environment.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 8 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/BAROQUE/Velazquez/temptation-of-st-thomas-aquinas.jpg" alt="The Temptation of St. Thomas Aquinas" type="jpg">
+                        </div>
+                        <p>The Temptation of St. Thomas Aquinas</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Velazquez/temptation-of-st-thomas-aquinas.jpg" alt="The Temptation of St. Thomas Aquinas" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Temptation of St. Thomas Aquinas</h1>
+                                <p>1631-1632</p>
+                                <p>
+                                    The scene illustrates a significant episode from the life of Saint Thomas Aquinas. As a novice, he encounters temptation 
+                                    represented by a prostitute, who appears in the background by a door. One angel supports him, while another prepares 
+                                    to fasten a white ribbon around him, symbolizing his dedication to chastity.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 9 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/BAROQUE/Velazquez/portrait-of-queen-margaret-of-austria-1635.jpg" alt="Portrait of Queen Margaret of Austria" typ="jpg" type="jpg">
+                        </div>
+                        <p>Portrait of Queen Margaret of Austria</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Velazquez/portrait-of-queen-margaret-of-austria-1635.jpg" alt="Portrait of Queen Margaret of Austria" typ="jpg" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Portrait of Queen Margaret of Austria</h1>
+                                <p>1635</p>
+                                <p>
+                                    The image of the queen is depicted in an elaborate gown, embellished with two pieces of jewelry associated with Austria: 
+                                    the pearl referred to as "La Peregrina" and the square-cut diamond known as "El Estanque." The horse is shown in the 
+                                    'passage' gait, facing left to reflect the horse in Margari
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+                
+                <div>   <!-- PARENT 4-->
+                    <!-- PAINTING 10 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="small-image">
+                            <img src="./IMAGE/BAROQUE/Velazquez/rokeby-venus-c-1647-1651.jpg" alt="Rokeby Venus" type="jpg">
+                        </div>
+                        <p>Rokeby Venus</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Velazquez/rokeby-venus-c-1647-1651.jpg" alt="Rokeby Venus" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>Rokeby Venus</h1>
+                                <p>1647-1651</p>
+                                <p>
+                                    The Rokeby Venus illustrates the Roman goddess of love, beauty, and fertility lounging on her bed, turned away from the 
+                                    viewer. This rear view of Venus was a popular visual and literary erotic theme in ancient times, with her knees drawn in. 
+                                    Unlike typical representations of this scene, she lacks the usual symbolic items such as jewelry, roses, and myrtle. 
+                                    The figure can be recognized as Venus due to the presence of her son, Cupid.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 11 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="large-image">
+                            <img src="./IMAGE/BAROQUE/Velazquez/the-surrender-of-breda-1635.jpg" alt="The Surrender of Breda" type="jpg">
+                        </div>
+                        <p>The Surrender of Breda</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Velazquez/the-surrender-of-breda-1635.jpg" alt="The Surrender of Breda" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Surrender of Breda</h1>
+                                <p>1635</p>
+                                <p>
+                                    The capture of Breda in 1625 marked a significant victory for Spanish forces during the later phases of the Eighty Years' 
+                                    War. General Ambrogio Spinola, a Genoese noble, took Breda despite receiving contrary orders from his superiors. Prior 
+                                    to this event, the Spanish government had concluded that engaging in siege warfare against well-fortified towns in the 
+                                    Low Countries was overly costly and decided to focus on economically blockading the Dutch Republic instead. Most of 
+                                    the Spanish military resources were redirected to the ongoing Thirty Years' War.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+
+                    <!-- PAINTING 12 -->
+                    <div onclick="showDescription(this)" onmouseover="onHover(this)" onmouseout="outHover(this)">
+                        <div class="medium-image">
+                            <img src="./IMAGE/BAROQUE/Velazquez/the-waterseller.jpg" alt="The Waterseller of Seville" type="jpg">
+                        </div>
+                        <p>The Waterseller of Seville</p>
+                    </div>
+                    <section class="painting-description">
+                        <div class="flexbox">
+                            <div class="column1">
+                                <img src="./IMAGE/BAROQUE/Velazquez/the-waterseller.jpg" alt="The Waterseller of Seville" type="jpg">
+                            </div>
+                            <div class="column2">
+                                <h1>The Waterseller of Seville</h1>
+                                <p>1623</p>
+                                <p>
+                                    He seems to express a sense of despair, bordering on the absurd. The vibrant colors are the most striking among the 
+                                    three works. The jars and food items evoke the style of bodegón paintings. The seller is attended by two customers: 
+                                    a young boy, likely modeled after the figures seen in The Lunch and Old Woman Cooking Eggs, and a young man who lingers 
+                                    in the shadowy background.
+                                </p>
+                            </div>
+                            <input type="button" name="button" value="CLOSE" onclick="closeDescription(this)">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </center>
+    </section>        
+        <!---------------------------------------------------------------------------------------------------->
+
+        <!--------------------------------------------------FOOTER-------------------------------------------------->
+    <section id="footer">
+        <div class="flexbox">
+            <h1>ArtClassic</h1>
+
+            <hr>
+            
+            <p>&copy; All  rights reserved.</p>
+        </div>
+    </section>
+        <!------------------------------------------------------------------------------------------------------------>
+</body>
+</html>
