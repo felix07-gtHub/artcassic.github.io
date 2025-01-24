@@ -2,12 +2,21 @@
         // IF THE MENUBAR ALREADY SHOWING,
         // IT HIDES IT, ELSE, SHOW.
 function toggleMenu(menuIcon){
+    const navBar = menuIcon.parentElement;
     const menuSection = menuIcon.nextElementSibling;
     
-    if(menuSection.style.display == 'block'){
-        menuSection.style.display = 'none';
+    if(menuSection.style.transform == ''){
+        navBar.style.backgroundColor = '#5b5247';
+        navBar.style.color = '#31241e';
+        menuIcon.innerHTML = 'x';
+        menuIcon.style.transform = `rotate(180deg)`;
+        menuSection.style.transform = `translate(0, 139%)`;
     } else {
-       menuSection.style.display = 'block';
+        navBar.style.backgroundColor = '';
+        navBar.style.color = '#5b5247';
+        menuIcon.innerHTML = '&#9776';
+        menuIcon.style.transform = `rotate(-180deg)`;
+        menuSection.style.transform = '';
     };
 }
 
@@ -22,8 +31,18 @@ window.onresize = hideMenu;
     //  THE MENUICON IS HIDDEN PREVENTING THE USER TO HIDE
     //  THE MENUBAR.
 function hideMenu() {
+    const barNav = document.getElementById('menu').parentElement;
+    const menuIcon =  document.getElementById('menu').previousElementSibling;
+    const sectionMenu = document.getElementById('menu');
+
     if(window.innerWidth > 891) {
-        document.getElementById('menu').style.display = 'none';
+        barNav.style.backgroundColor = '';
+        barNav.style.color = '#5b5247';
+        menuIcon.innerHTML = '&#9776';
+        sectionMenu.style.display = 'none';
+        sectionMenu.style.transform = '';
+    } else {
+        sectionMenu.style.display = 'block';
     };
 }
 
