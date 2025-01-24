@@ -322,12 +322,12 @@ nav > a + h1 {
     justify-content: center;
     position: relative;
     max-width: 1060px;
+        border: solid #fff;
 }
 
 @media (max-width: 1110px) {
     #people .flexbox {
         max-width: 555px;
-        border: solid #fff;
     }
 }
 
