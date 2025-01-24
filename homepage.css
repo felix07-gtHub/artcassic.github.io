@@ -334,6 +334,12 @@ nav > a + h1 {
     }
 }
 
+@media (max-width: 580px) {
+    #people .flexbox {
+        max-width: 2.5in;
+    }
+}
+
 #people .column {
     width: 2.5in;
     margin: 12.5px;
