@@ -15,7 +15,7 @@ nav {
     flex-wrap: wrap;
     height: 50px;
     width: 100%;
-    z-index: 2;
+    z-index: 1;
     top: 0;
     transition: background-color 0.1s;
     color: #5b5247;
@@ -267,7 +267,7 @@ nav > a + h1 {
 
     /* PAINTING DESCRIPTION */
 .painting-description { 
-    padding: 50px 15px;
+    padding: 15px;
     height: 100%;
     justify-items: center;
     position: fixed;
@@ -276,8 +276,9 @@ nav > a + h1 {
     width: 100%;
     display: none;
     box-sizing: border-box;
-    padding-top: 100px;
-    z-index: 1;
+    padding-top: ;
+    z-index: 2;
+    align-content: center;
 }
 
 .painting-description > .flexbox {
@@ -288,6 +289,7 @@ nav > a + h1 {
     height: 100%;
     overflow: auto;
     box-shadow: 0 0 10px #fff;  
+    max-height: 5.5in;
 }
 
 .painting-description .column1 {
@@ -339,10 +341,10 @@ nav > a + h1 {
 
 .painting-description > .flexbox > input[type="button"] {
     position: fixed;
-    bottom: 50px;
+    top: 77%;
 }
 
-@media (max-width: 743.25px) {      
+@media (max-width: 743.25px) {     
     .painting-description > .flexbox {
         flex-wrap: wrap;
     }
