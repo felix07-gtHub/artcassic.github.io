@@ -10,7 +10,7 @@ function toggleMenu(menuIcon){
         navBar.style.color = '#31241e';
         menuIcon.innerHTML = 'x';
         menuIcon.style.transform = `rotate(180deg)`;
-        menuSection.style.transform = `translate(0, 139%)`;
+        menuSection.style.transform = `translate(0, 137%)`;
     } else {
         navBar.style.backgroundColor = '';
         navBar.style.color = '#5b5247';
