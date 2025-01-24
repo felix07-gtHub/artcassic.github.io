@@ -342,7 +342,12 @@ nav > a + h1 {
     bottom: 50px;
 }
 
-@media (max-width: 743.25px) {   
+@media (max-width: 743.25px) {     
+    .painting-description {
+        padding: 15px;
+        padding-top: 65px;
+    }
+    
     .painting-description > .flexbox {
         flex-wrap: wrap;
     }
