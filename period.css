@@ -28,6 +28,10 @@ nav > h1 {
     transition: transform 0.3s;
 }
 
+nav > h1:hover {
+    color: #fff;
+}
+
 /*
     HIDES THE LINKS IN THE
     NAVIGATION BAR TO AVOID
