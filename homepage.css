@@ -322,7 +322,12 @@ nav > a + h1 {
     justify-content: center;
     position: relative;
     max-width: 1060px;
-    margin: 0 50px;
+}
+
+@media (max-width: 1110px) {
+    #people .flexbox {
+        max-width: 555px;
+    }
 }
 
 #people .column {
@@ -464,6 +469,12 @@ nav > a + h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 1185px) {
+    #service .flexbox {
+        max-width: 590.25px;
+    }
 }
 
 #service .column {
