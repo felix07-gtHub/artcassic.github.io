@@ -15,16 +15,18 @@ nav {
     flex-wrap: wrap;
     height: 50px;
     width: 100%;
-    z-index: 3;
+    z-index: 1;
     top: 0;
+    transition: background-color 0.1s;
+    color: #5b5247;
 }
 
 /* MENU ICON */
 nav > h1 {
-    color: #5b5247;
     display: none;
     cursor: pointer;
-    margin: 0
+    margin: 0;
+    transition: transform 0.3s;
 }
 
 /*
@@ -51,8 +53,8 @@ nav > h1 {
 nav > #menu {
     position: fixed;
     width: 100%;
-    top: 50px;
-    display: none;
+    top: -20%;
+    transition: transform 0.2s;
 }
 
 nav > #menu > .flexbox {
@@ -108,7 +110,6 @@ nav > a:hover {
 }
 
 nav > a + h1 {
-    color: #5b5247;
     margin: auto;
     display: block;
     cursor: default;
