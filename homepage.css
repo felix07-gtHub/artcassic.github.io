@@ -15,7 +15,7 @@ nav {
     flex-wrap: wrap;
     height: 50px;
     width: 100%;
-    z-index: 3;
+    z-index: 1;
     top: 0;
     transition: background-color 0.1s;
     color: #5b5247;
