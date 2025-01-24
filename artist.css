@@ -15,7 +15,7 @@ nav {
     flex-wrap: wrap;
     height: 50px;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     transition: background-color 0.1s;
     color: #5b5247;
@@ -277,7 +277,7 @@ nav > a + h1 {
     display: none;
     box-sizing: border-box;
     padding-top: 100px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .painting-description > .flexbox {
@@ -342,12 +342,7 @@ nav > a + h1 {
     bottom: 50px;
 }
 
-@media (max-width: 743.25px) {     
-    .painting-description {
-        padding: 15px;
-        padding-top: 65px;
-    }
-    
+@media (max-width: 743.25px) {      
     .painting-description > .flexbox {
         flex-wrap: wrap;
     }
