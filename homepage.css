@@ -327,6 +327,7 @@ nav > a + h1 {
 @media (max-width: 1110px) {
     #people .flexbox {
         max-width: 555px;
+        border: solid #fff;
     }
 }
 
