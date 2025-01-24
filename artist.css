@@ -297,6 +297,7 @@ nav > a + h1 {
     padding: 75px 25px;
     box-sizing: border-box;
     align-content: center;
+    min-height: 5.5in;
 }
 
 .painting-description .column1 > img {
@@ -311,6 +312,7 @@ nav > a + h1 {
     padding: 50px 15px;
     box-sizing: border-box;
     align-content: center;
+    min-height: 5.5in;
 }
 
 .painting-description .column2 > h1 {
