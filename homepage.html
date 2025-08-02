@@ -9,39 +9,7 @@
     <script src="artclassic.js" type="text/javascript"></script>
     <title>ARTClassic</title>
 </head>
-<body>    
-
-    <script>
-
-        async function post() {
-            const name = document.getElementById("name").value;
-            const email = document.getElementById("email").value;
-            const subject = document.getElementById("subject").value;
-            const message = document.getElementById("message").value;
-
-            const response = await fetch('http://127.0.0.1:3000/contact_form', {
-                method: 'POST',
-                headers: {
-                'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({name, email, subject, message}),
-            });
-            
-        };
-
-        function clear() {
-            document.getElementById("name").value = '';
-            document.getElementById("email").value = '';
-            document.getElementById("subject").value = '';
-            document.getElementById("message").value = '';
-        };
-
-        function postClear() {
-            post();
-            clear();
-        }
-
-    </script>
+<body>
     
         <!--NAVIFATION BAR-->
     <nav>   
@@ -573,3 +541,4 @@
         <!------------------------------------------------------------------------------------------------------------>
 </body>
 </html>
+
