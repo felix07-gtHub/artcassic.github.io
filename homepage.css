@@ -15,7 +15,7 @@ nav {
     flex-wrap: wrap;
     height: 50px;
     width: 100%;
-    z-index: 2;
+    z-index: 1;
     top: 0;
     transition: background-color 0.1s;
     color: #5b5247;
@@ -231,9 +231,20 @@ nav > a + h1 {
     position: relative;
 }
 
-#about .galleries2 > div > img {
+#about .galleries2 > div > a {
     min-width: 100%;    
-    transition: transform 0.2s;  
+    max-height: 100%;
+    transition: transform 0.2s; 
+    border: solid #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+#about .galleries2 > div > a > img,
+#about .galleries2 > div > a + a > img,
+#about .galleries2 > div > a + a + a > img {
+    min-width: 100%;
+    max-height: 100%;
 }
 
 #about .galleries2 > div > button {
@@ -637,7 +648,7 @@ nav > a + h1 {
     width: 50%;
 }
 
-#contact .contact-form > input[type="text"] {
+#contact .contact-form input[type="text"] {
     width: 100%;
     height: 50px;
     padding: 0 12px;
@@ -650,13 +661,13 @@ nav > a + h1 {
     color: #31241e;
 }
 
-#contact .contact-form > input[type="text"]:hover {
+#contact .contact-form > form > input[type="text"]:hover {
     background-color: #31241e;
     color: #fff;
     box-shadow: 0 0 10px #fff;
 }
 
-#contact .contact-form textarea {
+#contact .contact-form > form > textarea {
     width: 100%;
     padding: 12px;
     background-color: #d1c8c1;
@@ -666,10 +677,31 @@ nav > a + h1 {
     box-sizing: border-box;
 }
 
-#contact .contact-form > textarea:hover {
+#contact .contact-form > form > textarea:hover {
     background-color: #31241e;
     color: #fff;
     box-shadow: 0 0 10px #fff;
+}
+
+#contact .contact-form > form > input[type="submit"] {
+    max-width: 275px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #d1c8c1;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 25px 0;
+    position: relative;
+    width: 100%;
+}
+
+#contact .contact-form > form > input[type="submit"]:hover {
+    background-color: #fff;
+    color: #d1c8c1;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #fff;
+    transition: transform 0.2s;
 }
 
 /* 
