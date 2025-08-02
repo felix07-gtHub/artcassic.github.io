@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="homepage.css">
     <link rel="icon" href="./IMAGE/LOGO/icon.png">
     
@@ -10,6 +10,39 @@
     <title>ARTClassic</title>
 </head>
 <body>    
+
+    <script>
+
+        async function post() {
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const subject = document.getElementById("subject").value;
+            const message = document.getElementById("message").value;
+
+            const response = await fetch('http://127.0.0.1:3000/contact_form', {
+                method: 'POST',
+                headers: {
+                'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({name, email, subject, message}),
+            });
+            
+        };
+
+        function clear() {
+            document.getElementById("name").value = '';
+            document.getElementById("email").value = '';
+            document.getElementById("subject").value = '';
+            document.getElementById("message").value = '';
+        };
+
+        function postClear() {
+            post();
+            clear();
+        }
+
+    </script>
+    
         <!--NAVIFATION BAR-->
     <nav>   
         <h1 onclick="toggleMenu(this)">&#9776</h1>   
@@ -26,10 +59,9 @@
                     <a href="#service">SERVICES</a><br>
                     <a href="#gallery">GALLERY</a><br>
                     <a href="#contact">CONTACT</a>
-                </div>
+                </div>  
             </div>
         </section>
-
         
         <a href="#title">
             <img src="./IMAGE/LOGO/icon.png" alt="Logo" type="png">
@@ -62,13 +94,8 @@
     <section id="about">    
         <div class="first-div">
             
-                <!-- 
-                     USED GIF TO MINIMIZE LOADING PROCESS. 
-                     USED EMBEDED LINK (GOOGLE DRIVE) DUE TO
-                     GITHUB RESTRICITONS (25MB PER UPLOAD)
-                     AND THIS FILE EXCEEDS.
-                -->
-            <img src="https://drive.google.com/thumbnail?id=18_9KxoT0-KwvGfmKcf9wTWHUUlaD0Vdm" alt="Cinematography" type="gif">
+                <!-- USED GIF TO MINIMIZE LOADING PROCESS. -->
+            <img src="./IMAGE/cinematography.gif" alt="Cinematography" type="gif">
             <h1>ABOUT.</h1>
         </div>
 
@@ -90,9 +117,15 @@
     
             <div class="galleries2">
                 <div>
-                    <img src="./IMAGE/RENAISSANCE/botticelli.jpg" alt="botticelli" type="jpg">
-                    <img src="./IMAGE/RENAISSANCE/Leo.png" alt="Leo" type="png">
-                    <img src="./IMAGE/RENAISSANCE/Masaccio.jpg" alt="Masaccio" type="jpg">
+                    <a href="./Sandro Botticelli.html">
+                        <img src="./IMAGE/RENAISSANCE/botticelli.jpg" alt="botticelli" type="jpg">
+                    </a>
+                    <a href="./Leonardo da Vinci.html">
+                        <img src="./IMAGE/RENAISSANCE/Leo.png" alt="Leo" type="png">
+                    </a>
+                    <a href="./Masaccio.html">
+                        <img src="./IMAGE/RENAISSANCE/Masaccio.jpg" alt="Masaccio" type="jpg">
+                    </a>
 
                     <button onclick="previousCarousel0()" style="left: 0;">&#10094;</button>
                     <button onclick="nextCarousel0()">&#10095;</button>
@@ -105,9 +138,15 @@
                     </div>
                 </div>
                 <div>
-                    <img src="./IMAGE/BAROQUE/Caravaggio.jpg" alt="Caravaggio" type="jpg">
-                    <img src="./IMAGE/BAROQUE/Diego Rodríguez de Silva y Velázquez.jpg" alt="Diego Rodríguez de Silva y Velázquez" type="jpg">
-                    <img src="./IMAGE/BAROQUE/Peter Paul Rubens.jpg" alt="Peter Paul Rubens" type="jpg">
+                    <a href="./caravaggio.html">
+                        <img src="./IMAGE/BAROQUE/Caravaggio.jpg" alt="Caravaggio" type="jpg">
+                    </a>
+                    <a href="./Velazquez.html">
+                        <img src="./IMAGE/BAROQUE/Diego Rodríguez de Silva y Velázquez.jpg" alt="Diego Rodríguez de Silva y Velázquez" type="jpg">
+                    </a>
+                    <a href="./Rubens.html">
+                        <img src="./IMAGE/BAROQUE/Peter Paul Rubens.jpg" alt="Peter Paul Rubens" type="jpg">
+                    </a>
 
                     <button onclick="previousCarousel1()" style="left: 0;">&#10094;</button>
                     <button onclick="nextCarousel1()">&#10095;</button>
@@ -120,9 +159,15 @@
                     </div>
                 </div>
                 <div>
-                    <img src="./IMAGE/ROMANTICISM/Eugène Delacroix.jfif" alt="Eugène Delacroix" type="jfif">
-                    <img src="./IMAGE/ROMANTICISM/Francisco Goya.jfif" alt="Francisco Goya" type="jfif">
-                    <img src="./IMAGE/ROMANTICISM/Théodore Géricault.jpg" alt="Théodore Géricault" type="jpg">
+                    <a href="./Eugène Delacroix.html">
+                        <img src="./IMAGE/ROMANTICISM/Eugène Delacroix.jfif" alt="Eugène Delacroix" type="jfif">
+                    </a>
+                    <a href="./Francisco Goya.html">
+                        <img src="./IMAGE/ROMANTICISM/Francisco Goya.jfif" alt="Francisco Goya" type="jfif">
+                    </a>
+                    <a href="./Théodore Géricault.html">
+                        <img src="./IMAGE/ROMANTICISM/Théodore Géricault.jpg" alt="Théodore Géricault" type="jpg">
+                    </a>
 
                     <button onclick="previousCarousel2()" style="left: 0;">&#10094;</button>
                     <button onclick="nextCarousel2()">&#10095;</button>
@@ -502,13 +547,15 @@
             </div>
                 <!-- contact form div-->
             <div class="contact-form">
-                <input type="text" name="name" placeholder="NAME" required style="margin-top: 50px;">
-                <input type="text" name="E-MAIL" placeholder="E-MAIL" required>
-                <input type="text" name="SUBJECT" placeholder="SUBJECT" required>
-                <textarea id="message" rows="10" placeholder="Message" required></textarea>
+                <form>
+                    <input type="text" name="name" placeholder="NAME" required style="margin-top: 50px;" id="name">
+                    <input type="text" name="E-MAIL" placeholder="E-MAIL" required id="email">
+                    <input type="text" name="SUBJECT" placeholder="SUBJECT" required id="subject">
+                    <textarea id="message" rows="10" placeholder="Message" required name="message" id="message"></textarea>
 
-                    <!--BUTTON-->
-                <input type="button" name="button" value="SUBMIT">
+                        <!--BUTTON-->
+                    <input type="button" name="button" value="SUBMIT" onclick="postClear()">
+                </form>                
             </div>
         </div>
     </section>
