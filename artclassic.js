@@ -9,13 +9,11 @@ function toggleMenu(menuIcon){
         navBar.style.backgroundColor = '#5b5247';
         navBar.style.color = '#31241e';
         menuIcon.innerHTML = 'x';
-        menuIcon.style.transform = `rotate(180deg)`;
         menuSection.style.transform = `translate(0, 137%)`;
     } else {
         navBar.style.backgroundColor = '';
         navBar.style.color = '#5b5247';
         menuIcon.innerHTML = '&#9776';
-        menuIcon.style.transform = `rotate(-180deg)`;
         menuSection.style.transform = '';
     };
 }
@@ -39,8 +37,8 @@ function hideMenu() {
         barNav.style.backgroundColor = '';
         barNav.style.color = '#5b5247';
         menuIcon.innerHTML = '&#9776';
-        sectionMenu.style.display = 'none';
         sectionMenu.style.transform = '';
+        sectionMenu.style.display = 'none';
     } else {
         sectionMenu.style.display = 'block';
     };
@@ -50,9 +48,6 @@ function hideMenu() {
 
     // STARTS AT FUNCITON INDEX 0.
 var functionIndex = 0;
-    
-    // RUNS WHEN WINDOW LOADS.
-window.onload = windowOnload;
 
 function windowOnload() {
 
